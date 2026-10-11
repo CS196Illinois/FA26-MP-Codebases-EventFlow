@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "scraped_events": {
+      ".read": true,
+      ".write": false
+    }
+  }
+}

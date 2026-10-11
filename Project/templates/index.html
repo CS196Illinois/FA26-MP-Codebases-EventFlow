@@ -195,12 +195,11 @@
     </div>
   </div>
 
-  <!-- Configuration Script - REPLACE WITH YOUR CREDENTIALS -->
+  <!-- Configuration Script - values are injected by app.py from .env -->
   <script>
-    // TODO: Replace these with your actual Google API credentials
-    // Get them from: https://console.cloud.google.com/
-    const GOOGLE_CLIENT_ID = '985871831044-dao07nebhsmstom8althg48hfrg97oeo.apps.googleusercontent.com';
-    const GOOGLE_API_KEY = 'AIzaSyA7uXknS3AhXWG5IpcfdnI2eNo6-6hcmMA';
+    const GOOGLE_CLIENT_ID = {{ google_client_id|tojson }};
+    const GOOGLE_API_KEY = {{ google_api_key|tojson }};
+    window.FIREBASE_CONFIG = {{ firebase_config|tojson }};
   </script>
 
   <!-- Toast Notification Container -->

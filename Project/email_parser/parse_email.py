@@ -22,6 +22,8 @@ TENANT_ID = os.getenv("TENANT_ID")
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 OPENAI_KEY = os.getenv("OPENAI_KEY")
+# Any OpenRouter model id that supports response_format=json_object
+OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "nvidia/nemotron-3-super-120b-a12b:free")
 
 
 # Get the directory where this script is located
@@ -89,7 +91,7 @@ Email/Text to parse:
 {email_content}"""
 
     response = client.chat.completions.create(
-        model="openai/gpt-oss-120b",
+        model=OPENROUTER_MODEL,
         messages=[
             {"role": "system", "content": guidlines},
             {"role": "user", "content": contextual_content},

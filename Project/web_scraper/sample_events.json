@@ -1,0 +1,490 @@
+{
+ "scraped_events": {
+  "0": {
+   "summary": "MGNA CRRRTA",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mgna",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "start": "2026-10-13T19:00:00-05:00",
+   "end": "2026-10-13T22:00:00-05:00"
+  },
+  "1": {
+   "summary": "THE WIZ",
+   "description": "The Tony\u00ae Award-winning Best Musical that took the world by storm is back.  THE WIZ returns \u201chome\u201d to stages across America in an all-new tour, direct from Broadway. The Baltimore Sun raves \u201cPowerhouse performances. Stunning choreography. Visionary sets\u201d and the Chicago Sun-Times proclaims THE WIZ is \u201cAn eye-popping and high-intensity revival!\u201d This groundbreaking twist on The Wizard of Oz changed the face of Broadway\u2014from its iconic score packed with soul, gospel, rock, and 70s funk to its stirring tale of Dorothy\u2019s journey to find her place in a contemporary world. Everybody rejoice--this dynamite infusion of ballet, jazz, and modern pop brings a whole new groove to easing on down the road!",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/thewiz",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "start": "2026-10-14T19:30:00-05:00",
+   "end": "2026-10-14T22:30:00-05:00"
+  },
+  "2": {
+   "description": "",
+   "end": "2026-10-19T17:00:00-05:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-10-19T14:00:00-05:00",
+   "summary": "Men's Basketball Game: Illinois VS. Illinois State (Exh.)",
+   "tag": "Athletics"
+  },
+  "3": {
+   "summary": "Waitress",
+   "description": "Meet Jenna, a waitress and expert pie-maker who dreams of a way out of her small town and rocky marriage. Pouring her heart into her pies, she crafts desserts that mirror her topsy-turvy life such as \u201cThe Key (Lime) to Happiness Pie\u201d and \u201cBetrayed By My Eggs Pie.\u201d When a baking contest in a nearby county \u2014 and a satisfying encounter with someone new \u2014 show Jenna a chance at a fresh start, she must find the courage to seize it. Change is on the menu, as long as Jenna can write her own perfectly personal recipe for happiness. Brought to life by a groundbreaking creative team, this hilarious hit Broadway musical features original music and lyrics by Grammy\u00ae Award winner Sara Bareilles (\"Brave,\" \"Love Song\"), a book by acclaimed screenwriter Jessie Nelson (I Am Sam), original choreography by Lorin Latarro (Mrs. Doubtfire, Chess) and original direction by Tony Award\u00ae winner Diane Paulus (1776, Jagged Little Pill, Pippin). \u201cWAITRESS is a little slice of heaven!\u201d says Entertainment Weekly, and is \u201csweet, sassy and passionate,\u201d according to New York Magazine.  \"It's an empowering musical of the highest order!\" raves the Chicago Tribune. Don't miss this uplifting and hilarious musical celebrating friendship, motherhood, and the magic of a well-made pie.",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/waitress",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "start": "2026-10-19T19:30:00-05:00",
+   "end": "2026-10-19T22:30:00-05:00"
+  },
+  "4": {
+   "description": "",
+   "end": "2026-10-24T22:00:00-05:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
+   "location": "Huff Hall",
+   "start": "2026-10-24T19:00:00-05:00",
+   "summary": "Volleyball Game: Illinois VS. Purdue",
+   "tag": "Athletics"
+  },
+  "5": {
+   "description": "",
+   "end": "2026-10-25T22:00:00-05:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
+   "location": "Huff Hall",
+   "start": "2026-10-25T19:00:00-05:00",
+   "summary": "Volleyball Game: Illinois VS. Michigan",
+   "tag": "Athletics"
+  },
+  "6": {
+   "description": "",
+   "end": "2026-10-30T21:00:00-05:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-10-30T18:00:00-05:00",
+   "summary": "Women's Basketball Game: Illinois VS. Maryville (EXH)",
+   "tag": "Athletics"
+  },
+  "7": {
+   "description": "",
+   "end": "2026-11-02T16:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
+   "location": "Huff Hall",
+   "start": "2026-11-02T13:00:00-06:00",
+   "summary": "Volleyball Game: Illinois VS. Iowa",
+   "tag": "Athletics"
+  },
+  "8": {
+   "description": "",
+   "end": "2026-11-03T22:30:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-11-03T19:30:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Jackson State",
+   "tag": "Athletics"
+  },
+  "9": {
+   "description": "",
+   "end": "2026-11-04T21:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-11-04T18:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. SEMO",
+   "tag": "Athletics"
+  },
+  "10": {
+   "description": "",
+   "end": "2026-11-06T22:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/football/schedule",
+   "location": "Gies Memorial Stadium, Champaign, Ill.",
+   "start": "2026-11-06T19:00:00-06:00",
+   "summary": "Football Game: Illinois VS. Nebraska",
+   "tag": "Athletics"
+  },
+  "11": {
+   "description": "",
+   "end": "2026-11-07T22:30:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-11-07T19:30:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Florida Gulf Coast",
+   "tag": "Athletics"
+  },
+  "12": {
+   "description": "",
+   "end": "2026-11-09T15:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-11-09T12:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Illinois State",
+   "tag": "Athletics"
+  },
+  "13": {
+   "description": "",
+   "end": "2026-11-09T18:30:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
+   "location": "Huff Hall",
+   "start": "2026-11-09T15:30:00-06:00",
+   "summary": "Volleyball Game: Illinois VS. Penn State",
+   "tag": "Athletics"
+  },
+  "14": {
+   "description": "",
+   "end": "2026-11-11T22:30:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-11-11T19:30:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Texas Tech",
+   "tag": "Athletics"
+  },
+  "15": {
+   "description": "",
+   "end": "2026-11-14T21:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
+   "location": "Huff Hall",
+   "start": "2026-11-14T18:00:00-06:00",
+   "summary": "Volleyball Game: Illinois VS. Washington",
+   "tag": "Athletics"
+  },
+  "16": {
+   "description": "",
+   "end": "2026-11-14T23:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-11-14T20:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Colgate",
+   "tag": "Athletics"
+  },
+  "17": {
+   "description": "",
+   "end": "2026-11-15T23:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
+   "location": "Huff Hall",
+   "start": "2026-11-15T20:00:00-06:00",
+   "summary": "Volleyball Game: Illinois VS. Wisconsin",
+   "tag": "Athletics"
+  },
+  "18": {
+   "description": "",
+   "end": "2026-11-18T14:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-11-18T11:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Murray State",
+   "tag": "Athletics"
+  },
+  "19": {
+   "description": "",
+   "end": "2026-11-22T16:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-11-22T13:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Long Island",
+   "tag": "Athletics"
+  },
+  "20": {
+   "description": "",
+   "end": "2026-11-24T22:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-11-24T19:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. UT Rio Grande Valley",
+   "tag": "Athletics"
+  },
+  "21": {
+   "description": "",
+   "end": "2026-11-26T21:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-11-26T18:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Western Kentucky",
+   "tag": "Athletics"
+  },
+  "22": {
+   "description": "",
+   "end": "2026-11-26T23:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
+   "location": "Huff Hall",
+   "start": "2026-11-26T20:00:00-06:00",
+   "summary": "Volleyball Game: Illinois VS. Indiana",
+   "tag": "Athletics"
+  },
+  "23": {
+   "description": "",
+   "end": "2026-11-28T22:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
+   "location": "Huff Hall",
+   "start": "2026-11-28T19:00:00-06:00",
+   "summary": "Volleyball Game: Illinois VS. Northwestern",
+   "tag": "Athletics"
+  },
+  "24": {
+   "description": "",
+   "end": "2026-11-30T17:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-11-30T14:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Le Moyne",
+   "tag": "Athletics"
+  },
+  "25": {
+   "description": "",
+   "end": "2026-12-02T21:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-12-02T18:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Bellarmine",
+   "tag": "Athletics"
+  },
+  "26": {
+   "summary": "Lindsey Stirling - The Snow Waltz Tour",
+   "description": "Lindsey Stirling brings her spectacular Snow Waltz Tour to State Farm Center this holiday season. The award-winning violinist, dancer and entertainer delivers a one-of-a-kind holiday experience featuring breathtaking choreography, stunning visuals and Lindsey\u2019s genre-defying arrangements of holiday classics and original music. Blending classical violin with electronic, pop and rock influences, Stirling has created a live show unlike anything else \u2014 combining virtuosic musicianship with dance, theatrical production and aerial performance. Her annual holiday tour has become a seasonal tradition, bringing the music of her acclaimed Christmas albums Warmer in the Winter and Snow Waltz to life on stage. $1 per ticket goes towards Lindsey\u2019s foundation, The Upside Fund, which focuses on\u202fequitable healthcare and medical debt relief, mental health access, and nutrition education and food justice.",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/snowwaltz",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "start": "2026-12-05T19:00:00-06:00",
+   "end": "2026-12-05T22:00:00-06:00"
+  },
+  "27": {
+   "description": "",
+   "end": "2026-12-06T14:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-12-06T11:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Indiana",
+   "tag": "Athletics"
+  },
+  "28": {
+   "description": "",
+   "end": "2026-12-13T18:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-12-13T15:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Nebraska",
+   "tag": "Athletics"
+  },
+  "29": {
+   "description": "",
+   "end": "2026-12-14T17:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-12-14T14:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. North Texas",
+   "tag": "Athletics"
+  },
+  "30": {
+   "description": "",
+   "end": "2026-12-19T21:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-12-19T18:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Jackson State",
+   "tag": "Athletics"
+  },
+  "31": {
+   "description": "",
+   "end": "2026-12-29T17:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2026-12-29T14:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Southern",
+   "tag": "Athletics"
+  },
+  "32": {
+   "description": "",
+   "end": "2027-01-01T18:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-01-01T15:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Maryland",
+   "tag": "Athletics"
+  },
+  "33": {
+   "description": "",
+   "end": "2027-01-07T21:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-01-07T18:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Ohio State",
+   "tag": "Athletics"
+  },
+  "34": {
+   "summary": "HARLEM GLOBETROTTERS: RIVALRY TOUR",
+   "description": "HARLEM GLOBETROTTERS: RIVALRY TOUR\u00a0 Have the Harlem Globetrotters finally met their match? The Washington Generals and a new lineup of rivals step onto the court - hungry for a win, and out to prove it! This year, new challenges enter the game too. The Harlem Globetrotters - the team that invented basketball culture - bring the Rivalry Tour to your city as part of their all-new 2027 world tour, with a roster of stars who turn every possession into showtime, quarter after quarter. This is a whole new experience - you're not just watching, you're part of it. You help decide. Get pulled onto the court. Join the squad. Own the jumbotron. Because anything can happen at a Globetrotters game. A free, all-new pre-game tip-off party kicks off the moment doors open, packed with new surprises for longtime fans and first-time families. This is Globetrotters joy - electric, and built for YOU! New rivals. New challenges. An all-new show. The rivalry is theirs. The thrill is yours. Get your tickets now.",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/globetrotters27",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "start": "2027-01-08T19:00:00-06:00",
+   "end": "2027-01-08T22:00:00-06:00"
+  },
+  "35": {
+   "description": "",
+   "end": "2027-01-08T22:30:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-01-08T19:30:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Rutgers",
+   "tag": "Athletics"
+  },
+  "36": {
+   "description": "",
+   "end": "2027-01-17T14:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-01-17T11:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Minnesota",
+   "tag": "Athletics"
+  },
+  "37": {
+   "description": "",
+   "end": "2027-01-18T17:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-01-18T14:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Northwestern",
+   "tag": "Athletics"
+  },
+  "38": {
+   "description": "",
+   "end": "2027-01-21T21:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-01-21T18:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Maryland",
+   "tag": "Athletics"
+  },
+  "39": {
+   "description": "",
+   "end": "2027-01-28T21:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-01-28T18:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. UCLA",
+   "tag": "Athletics"
+  },
+  "40": {
+   "description": "",
+   "end": "2027-01-29T23:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-01-29T20:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Washington",
+   "tag": "Athletics"
+  },
+  "41": {
+   "description": "",
+   "end": "2027-02-04T23:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-02-04T20:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Northwestern",
+   "tag": "Athletics"
+  },
+  "42": {
+   "description": "",
+   "end": "2027-02-08T15:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-02-08T12:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. USC",
+   "tag": "Athletics"
+  },
+  "43": {
+   "description": "",
+   "end": "2027-02-10T22:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-02-10T19:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Wisconsin",
+   "tag": "Athletics"
+  },
+  "44": {
+   "description": "",
+   "end": "2027-02-11T21:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-02-11T18:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Wisconsin",
+   "tag": "Athletics"
+  },
+  "45": {
+   "description": "",
+   "end": "2027-02-15T15:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-02-15T12:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Indiana",
+   "tag": "Athletics"
+  },
+  "46": {
+   "description": "",
+   "end": "2027-02-17T21:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-02-17T18:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Rutgers",
+   "tag": "Athletics"
+  },
+  "47": {
+   "description": "",
+   "end": "2027-02-27T22:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-02-27T19:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Michigan",
+   "tag": "Athletics"
+  },
+  "48": {
+   "description": "",
+   "end": "2027-03-01T16:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-03-01T13:00:00-06:00",
+   "summary": "Women's Basketball Game: Illinois VS. Minnesota",
+   "tag": "Athletics"
+  },
+  "49": {
+   "description": "",
+   "end": "2027-03-03T23:00:00-06:00",
+   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
+   "location": "State Farm Center, Champaign, Ill.",
+   "start": "2027-03-03T20:00:00-06:00",
+   "summary": "Men's Basketball Game: Illinois VS. Oregon",
+   "tag": "Athletics"
+  },
+  "50": {
+   "summary": "The Book of Mormon",
+   "description": "The New York Times calls it \u201cthe best musical of this century.\u201d The Washington Post says, \u201cIt is the kind of evening that restores your faith in musicals.\u201d And Entertainment Weekly says, \u201cGrade A: the funniest musical of all time.\u201d Jimmy Fallon of The Tonight Show calls it \"Genius. Brilliant. Phenomenal.\" It\u2019s THE BOOK OF MORMON, the nine-time Tony Award\u00ae winning Best Musical. This outrageous musical comedy follows the adventures of a mismatched pair of missionaries, sent halfway across the world to spread the Good Word. With standing room only productions in London, on Broadway, and across North America, THE BOOK OF MORMON has truly become an international sensation. Contains explicit language. For more information, visit TheBookOfMormonTour.com.",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/the-book-of-mormon",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "start": "2027-05-06T19:30:00-05:00",
+   "end": "2027-05-06T22:30:00-05:00"
+  },
+  "51": {
+   "summary": "Shucked",
+   "description": "Maizy and Beau are getting hitched, when the corn that protects their small community starts to die. The town needs answers. But who will dare to venture beyond the borders of Cob County? \u00a0 Including the knockout songs \u2018Woman of the World\u2019, \u2018Somebody Will\u2019 and \u2018Independently Owned\u2019, this Broadway hit about an unlikely hero, an unscrupulous con artist, and a battle for the heart and soil of a small town, is not to be missed.",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/shucked",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "start": "2027-05-10T19:30:00-05:00",
+   "end": "2027-05-10T22:30:00-05:00"
+  },
+  "52": {
+   "summary": "ILLINI MBB VS. Baylor",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvsbaylor",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "start": "",
+   "end": ""
+  },
+  "53": {
+   "summary": "ILLINI WBB VS. UIS",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvsuis",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "start": "",
+   "end": ""
+  }
+ }
+}

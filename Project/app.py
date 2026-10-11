@@ -30,7 +30,22 @@ CLIENT_ID = os.getenv("CLIENT_ID")
 # Loads the home page
 @app.route("/")
 def index():
-    return render_template("index.html")
+    # Browser-side config comes from .env so no keys live in the templates/static files
+    firebase_config = {
+        "apiKey": os.getenv("FIREBASE_API_KEY", ""),
+        "authDomain": os.getenv("FIREBASE_AUTH_DOMAIN", ""),
+        "databaseURL": os.getenv("FIREBASE_DATABASE_URL", ""),
+        "projectId": os.getenv("FIREBASE_PROJECT_ID", ""),
+        "storageBucket": os.getenv("FIREBASE_STORAGE_BUCKET", ""),
+        "messagingSenderId": os.getenv("FIREBASE_MESSAGING_SENDER_ID", ""),
+        "appId": os.getenv("FIREBASE_APP_ID", ""),
+    }
+    return render_template(
+        "index.html",
+        firebase_config=firebase_config,
+        google_client_id=os.getenv("GOOGLE_CLIENT_ID") or "YOUR_CLIENT_ID",
+        google_api_key=os.getenv("GOOGLE_API_KEY") or "YOUR_API_KEY",
+    )
 
 # Email processing endpoints
 @app.route("/api/process_emails", methods=["POST"])
