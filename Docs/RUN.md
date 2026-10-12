@@ -2,13 +2,13 @@
 
 EventFlow pulls UIUC campus events into one page: scraped events from campus and venue
 calendars, events extracted from your Outlook email (or pasted text) by an LLM, and
-one-click adding to your Google Calendar.
+one-click adding to a shared Google Calendar.
 
 ## Prerequisites
 
 - Python **3.12** (see `.python-version`)
-- The project's env values (ask course staff for the shared `.env`), plus your own
-  free [OpenRouter](https://openrouter.ai/keys) key
+- The project's env values and the calendar key file `service-account.json`
+  (ask course staff), plus your own free [OpenRouter](https://openrouter.ai/keys) key
 
 ## Setup
 
@@ -17,13 +17,13 @@ python3.12 -m venv .venv
 source .venv/bin/activate              # Windows: .venv\Scripts\activate
 pip install -r Project/requirements.txt
 cp .env.example .env                   # then fill in the values
+# put service-account.json in the repo root, next to .env (it's gitignored)
 
 cd Project
 python app.py                          # http://127.0.0.1:5000
 ```
 
-Open **http://127.0.0.1:5000** (not `localhost`). That's the origin registered on the
-Google OAuth client.
+Open **http://127.0.0.1:5000**.
 
 ## Configuration
 
@@ -32,7 +32,8 @@ Google OAuth client.
 | Variables | Feature | Secret? |
 |---|---|---|
 | `FIREBASE_*` | "Browse events" list (Firebase Realtime DB) | No, rendered into the page |
-| `GOOGLE_CLIENT_ID`, `GOOGLE_API_KEY` | Connect / add to Google Calendar | No, rendered into the page |
+| `GOOGLE_CALENDAR_ID` | Shared calendar shown on the page | No, rendered into the page |
+| `GOOGLE_SERVICE_ACCOUNT_FILE` | Path to the key that writes events to that calendar | **The key file is secret** |
 | `CLIENT_ID`, `TENANT_ID` | Import events from Outlook (Microsoft Graph) | No |
 | `OPENAI_KEY` | LLM event extraction (OpenRouter key) | **Yes, keep it private** |
 | `OPENROUTER_MODEL` | Which OpenRouter model to use | No |
@@ -45,7 +46,9 @@ warning.
 
 - **Firebase Realtime Database**: `scraped_events` is read by `static/browse-events.js`.
   Access rules are in [`database.rules.json`](../database.rules.json) (public read, no client writes).
-- **Google Calendar API**: OAuth in the browser (`static/calendar-connect.js`).
+- **Google Calendar**: one shared, public calendar ("EventFlow (CS 124H)") embedded in the
+  page. "+ Add" calls `POST /api/calendar/events` in `app.py`, which writes the event with a
+  Google service account that only has access to that calendar. No one signs in with Google.
 - **Microsoft Graph**: reads your 1–25 most recent emails (`email_parser/parse_email.py`).
   It opens a Microsoft sign-in window the first time.
 - **OpenRouter**: OpenAI-compatible API, so it uses the `openai` package with a different `base_url`.

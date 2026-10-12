@@ -43,9 +43,46 @@ def index():
     return render_template(
         "index.html",
         firebase_config=firebase_config,
-        google_client_id=os.getenv("GOOGLE_CLIENT_ID") or "YOUR_CLIENT_ID",
-        google_api_key=os.getenv("GOOGLE_API_KEY") or "YOUR_API_KEY",
+        google_calendar_id=os.getenv("GOOGLE_CALENDAR_ID", ""),
     )
+
+# Shared Google Calendar: everyone views the same public calendar, and events are
+# written server-side by a service account that has edit access to that one calendar.
+def get_calendar_service():
+    from google.oauth2 import service_account
+    from googleapiclient.discovery import build
+
+    key_file = Path(os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE", "service-account.json"))
+    if not key_file.is_absolute():
+        key_file = BASE_DIR.parent / key_file  # relative to the repo root, next to .env
+    creds = service_account.Credentials.from_service_account_file(
+        str(key_file), scopes=["https://www.googleapis.com/auth/calendar.events"]
+    )
+    return build("calendar", "v3", credentials=creds, cache_discovery=False)
+
+@app.route("/api/calendar/events", methods=["POST"])
+def add_calendar_event():
+    calendar_id = os.getenv("GOOGLE_CALENDAR_ID")
+    if not calendar_id:
+        return jsonify({"error": "GOOGLE_CALENDAR_ID is not set in .env"}), 500
+
+    event = request.json or {}
+    if not event.get("start") or not event.get("end"):
+        return jsonify({"error": "Event needs a start and end time"}), 400
+
+    event_data = {
+        "summary": event.get("summary") or "Untitled Event",
+        "location": event.get("location", ""),
+        "description": event.get("description", ""),
+        "start": {"dateTime": event["start"], "timeZone": "America/Chicago"},
+        "end": {"dateTime": event["end"], "timeZone": "America/Chicago"},
+    }
+    try:
+        created = get_calendar_service().events().insert(calendarId=calendar_id, body=event_data).execute()
+        return jsonify({"id": created["id"], "htmlLink": created.get("htmlLink")}), 201
+    except Exception as e:
+        print(f"Error adding calendar event: {e}")
+        return jsonify({"error": str(e)}), 500
 
 # Email processing endpoints
 @app.route("/api/process_emails", methods=["POST"])

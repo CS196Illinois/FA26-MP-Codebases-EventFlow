@@ -7,8 +7,6 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
   <!-- Google API Libraries -->
-  <script src="https://accounts.google.com/gsi/client" async defer></script>
-  <script src="https://apis.google.com/js/api.js" async defer></script>
 </head>
 <body>
   <div class="container">
@@ -197,8 +195,7 @@
 
   <!-- Configuration Script - values are injected by app.py from .env -->
   <script>
-    const GOOGLE_CLIENT_ID = {{ google_client_id|tojson }};
-    const GOOGLE_API_KEY = {{ google_api_key|tojson }};
+    const GOOGLE_CALENDAR_ID = {{ google_calendar_id|tojson }};
     window.FIREBASE_CONFIG = {{ firebase_config|tojson }};
   </script>
 
