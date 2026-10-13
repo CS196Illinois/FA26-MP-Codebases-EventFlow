@@ -33,7 +33,7 @@ jobs:
             };
 
             if (!field('Name')) problems.push('Fill in your **Name** under "Student info".');
-            if (!/^[a-z][a-z0-9]{1,7}$/i.test(field('NetID')))
+            if (!/^[a-z][a-z0-9]{1,14}$/i.test(field('NetID')))
               problems.push('Fill in your **NetID** under "Student info" (just the NetID, e.g. `jsmith2`, not your email).');
             if (!section('What did you change\\?')) problems.push('Describe your changes under **"What did you change?"**.');
             if (!section('Why\\?')) problems.push('Explain the reason under **"Why?"**.');
