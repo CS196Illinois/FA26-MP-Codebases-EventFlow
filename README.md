@@ -71,19 +71,21 @@ To open it in VS Code: `code .`
 
 EventFlow needs two files from PrairieLearn plus one key you make yourself.
 
-1. Download **`eventflow.env`** and **`service-account.json`** from PrairieLearn into your
-   **Downloads** folder.
+1. Download both EventFlow files from PrairieLearn into your **Downloads** folder:
+   - **`EventFlow-config.env`**: the app's settings (database and shared calendar).
+   - **`EventFlow-calendar-key.json`**: the secret key that lets the app add events to the
+     shared calendar.
 2. Copy them into the project folder:
 
    **macOS / Linux**
    ```bash
-   cp ~/Downloads/eventflow.env .env
-   cp ~/Downloads/service-account.json service-account.json
+   cp ~/Downloads/EventFlow-config.env .env
+   cp ~/Downloads/EventFlow-calendar-key.json .
    ```
    **Windows (PowerShell)**
    ```powershell
-   Copy-Item $HOME\Downloads\eventflow.env .env
-   Copy-Item $HOME\Downloads\service-account.json service-account.json
+   Copy-Item $HOME\Downloads\EventFlow-config.env .env
+   Copy-Item $HOME\Downloads\EventFlow-calendar-key.json .
    ```
 3. Make your own free AI key (everyone needs their own):
    1. Go to <https://openrouter.ai> and sign in (Google or GitHub is fine).
@@ -93,7 +95,10 @@ EventFlow needs two files from PrairieLearn plus one key you make yourself.
    4. Open `.env` in your editor and paste it after `OPENAI_KEY=`, so the line looks like
       `OPENAI_KEY=sk-or-v1-...`. Save the file.
 
-**Never share or commit these files.** `.env` and `service-account.json` are secret.
+The settings file must be named exactly `.env` (that's the name the app looks for). Its name
+starts with a dot, so your file browser may hide it. That's normal.
+
+**Never share or commit these files.** `.env` and `EventFlow-calendar-key.json` are secret.
 Git is already set to ignore them.
 
 ---

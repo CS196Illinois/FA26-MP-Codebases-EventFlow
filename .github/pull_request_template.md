@@ -32,4 +32,4 @@
 ## Checklist
 
 - [ ] I ran the project locally after my changes and it still starts.
-- [ ] I did not commit any secret files (`.env`, `.env.local`, `service-account.json`).
+- [ ] I did not commit any secret files (`.env`, `.env.local`, `EventFlow-calendar-key.json`).

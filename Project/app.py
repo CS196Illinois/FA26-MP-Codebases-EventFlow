@@ -52,7 +52,7 @@ def get_calendar_service():
     from google.oauth2 import service_account
     from googleapiclient.discovery import build
 
-    key_file = Path(os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE", "service-account.json"))
+    key_file = Path(os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE", "EventFlow-calendar-key.json"))
     if not key_file.is_absolute():
         key_file = BASE_DIR.parent / key_file  # relative to the repo root, next to .env
     creds = service_account.Credentials.from_service_account_file(

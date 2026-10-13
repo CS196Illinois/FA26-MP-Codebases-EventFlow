@@ -7,8 +7,8 @@ one-click adding to a shared Google Calendar.
 ## Prerequisites
 
 - Python **3.12** (see `.python-version`)
-- The project's env values and the calendar key file `service-account.json`
-  (ask course staff), plus your own free [OpenRouter](https://openrouter.ai/keys) key
+- `EventFlow-config.env` (copy it to `.env`) and `EventFlow-calendar-key.json`
+  from PrairieLearn, plus your own free [OpenRouter](https://openrouter.ai/keys) key
 
 ## Setup
 
@@ -16,8 +16,8 @@ one-click adding to a shared Google Calendar.
 python3.12 -m venv .venv
 source .venv/bin/activate              # Windows: .venv\Scripts\activate
 pip install -r Project/requirements.txt
-cp .env.example .env                   # then fill in the values
-# put service-account.json in the repo root, next to .env (it's gitignored)
+cp ~/Downloads/EventFlow-config.env .env   # or: cp .env.example .env, then fill it in
+# put EventFlow-calendar-key.json in the repo root, next to .env (it's gitignored)
 
 cd Project
 python app.py                          # http://127.0.0.1:5000

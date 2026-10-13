@@ -45,7 +45,7 @@ jobs:
             const files = await github.paginate(github.rest.pulls.listFiles, {
               owner: context.repo.owner, repo: context.repo.repo, pull_number: pr.number,
             });
-            const secret = /(^|\/)(\.env(\.local)?|service-account[^/]*\.json|credentials\.json|token\.json)$/;
+            const secret = /(^|\/)(\.env(\.local)?|[^/]*calendar-key[^/]*\.json|service-account[^/]*\.json|credentials\.json|token\.json)$/;
             const leaked = files.filter(f => f.status !== 'removed' && secret.test(f.filename)).map(f => f.filename);
             if (leaked.length)
               problems.push('Your PR includes secret file(s): ' + leaked.map(f => '`' + f + '`').join(', ') +
