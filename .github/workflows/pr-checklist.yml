@@ -1,0 +1,73 @@
+# Checks every pull request for a filled-in template and for committed secret files.
+# Uses pull_request_target so it can comment on PRs from forks. It never checks out
+# or runs the PR's code; it only reads the PR description and the list of changed files.
+name: PR Checklist
+
+on:
+  pull_request_target:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  checklist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const body = (pr.body || '').replace(/<!--[\s\S]*?-->/g, '');
+            const problems = [];
+
+            // Text between a "## Heading" and the next heading
+            const section = (title) => {
+              const m = body.match(new RegExp('##\\s*' + title + '[^\\n]*\\n([\\s\\S]*?)(?=\\n##\\s|$)', 'i'));
+              return m ? m[1].trim() : '';
+            };
+            const field = (label) => {
+              const m = body.match(new RegExp('\\*\\*' + label + ':\\*\\*[ \\t]*([^\\n]*)', 'i'));
+              return m ? m[1].trim() : '';
+            };
+
+            if (!field('Name')) problems.push('Fill in your **Name** under "Student info".');
+            if (!/^[a-z][a-z0-9]{1,7}$/i.test(field('NetID')))
+              problems.push('Fill in your **NetID** under "Student info" (just the NetID, e.g. `jsmith2`, not your email).');
+            if (!section('What did you change\\?')) problems.push('Describe your changes under **"What did you change?"**.');
+            if (!section('Why\\?')) problems.push('Explain the reason under **"Why?"**.');
+            if (!section('How did you test it\\?')) problems.push('Describe how you tested under **"How did you test it?"**.');
+            if (/- \[ \]/.test(section('Checklist')) || !/- \[x\]/i.test(section('Checklist')))
+              problems.push('Tick both boxes under **"Checklist"** (edit the description and change `[ ]` to `[x]`).');
+
+            // Secret files that must never be committed
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner: context.repo.owner, repo: context.repo.repo, pull_number: pr.number,
+            });
+            const secret = /(^|\/)(\.env(\.local)?|service-account[^/]*\.json|credentials\.json|token\.json)$/;
+            const leaked = files.filter(f => f.status !== 'removed' && secret.test(f.filename)).map(f => f.filename);
+            if (leaked.length)
+              problems.push('Your PR includes secret file(s): ' + leaked.map(f => '`' + f + '`').join(', ') +
+                '. Remove them with `git rm --cached <file>`, commit, and push. See "Troubleshooting" in the README.');
+
+            // Keep one bot comment per PR, updated in place
+            const marker = '<!-- pr-checklist-bot -->';
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner, repo: context.repo.repo, issue_number: pr.number,
+            });
+            const mine = comments.find(c => c.body && c.body.includes(marker));
+            const text = problems.length
+              ? `${marker}\n### ❌ This PR isn't ready to be graded yet\n\nPlease fix:\n\n` +
+                problems.map(p => `- ${p}`).join('\n') +
+                `\n\nTo edit the description: click **···** at the top right of your first comment, then **Edit**. ` +
+                `This check re-runs automatically when you save.`
+              : `${marker}\n### ✅ PR checklist complete\n\nThis PR is ready to be graded.`;
+
+            if (mine) {
+              await github.rest.issues.updateComment({ owner: context.repo.owner, repo: context.repo.repo, comment_id: mine.id, body: text });
+            } else if (problems.length) {
+              await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: pr.number, body: text });
+            }
+
+            if (problems.length) core.setFailed(`${problems.length} problem(s) found. See the PR comment.`);
