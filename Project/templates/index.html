@@ -28,6 +28,16 @@
       </div>
     </header>
 
+    <!-- My Events Section (events added from this browser, which can be edited or deleted) -->
+    <section class="my-events-section">
+      <div class="browse-header">
+        <h3>My Events</h3>
+      </div>
+      <div id="my-events" class="browse-container">
+        <p class="no-events-text">Events you add will show up here so you can edit or delete them</p>
+      </div>
+    </section>
+
     <!-- Calendar Section -->
     <section class="calendar-section">
       <div class="calendar-grid-container">
@@ -176,6 +186,37 @@
     </div>
   </div>
 
+  <!-- Edit Event Modal -->
+  <div id="edit-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal" id="close-edit-event">&times;</span>
+      <h3>Edit Event</h3>
+      <input type="text" id="edit-title" placeholder="Event Title" required />
+      <label for="edit-start">Starts</label>
+      <input type="datetime-local" id="edit-start" required />
+      <label for="edit-end">Ends</label>
+      <input type="datetime-local" id="edit-end" required />
+      <input type="text" id="edit-location" placeholder="Location (optional)" />
+      <textarea id="edit-description" placeholder="Description (optional)" rows="3"></textarea>
+      <div class="modal-buttons">
+        <button id="save-edit" class="btn-primary">Save Changes</button>
+        <button id="cancel-edit" class="btn-secondary">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Delete Confirmation Modal -->
+  <div id="delete-modal" class="modal">
+    <div class="modal-content">
+      <h3>Delete Event?</h3>
+      <p id="delete-modal-message"></p>
+      <div class="modal-buttons">
+        <button id="confirm-delete" class="btn-danger">Delete</button>
+        <button id="cancel-delete" class="btn-secondary">Cancel</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Email Parser Modal -->
   <div id="email-modal" class="modal">
     <div class="modal-content">
@@ -205,6 +246,7 @@
   <script src="{{ url_for('static', filename='calendar-connect.js') }}" type="module"></script>
   <script src="{{ url_for('static', filename='script.js') }}" type="module"></script>
   <script src="{{ url_for('static', filename='browse-events.js') }}" type="module"></script>
+  <script src="{{ url_for('static', filename='my-events.js') }}" type="module"></script>
 
   <footer>
     Copyright © 2025 EventFlow

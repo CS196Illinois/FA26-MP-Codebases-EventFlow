@@ -84,6 +84,56 @@ def add_calendar_event():
         print(f"Error adding calendar event: {e}")
         return jsonify({"error": str(e)}), 500
 
+# Turns a Google API error into the right HTTP status (e.g. 404 if the event is already gone)
+def calendar_error_response(e, action):
+    print(f"Error {action} calendar event: {e}")
+    status = getattr(getattr(e, "resp", None), "status", None)
+    if status in (404, 410):
+        return jsonify({"error": "That event no longer exists on the calendar"}), 404
+    return jsonify({"error": str(e)}), 500
+
+# Edit an event that was added through this app. Only the fields sent are changed.
+@app.route("/api/calendar/events/<event_id>", methods=["PATCH"])
+def update_calendar_event(event_id):
+    calendar_id = os.getenv("GOOGLE_CALENDAR_ID")
+    if not calendar_id:
+        return jsonify({"error": "GOOGLE_CALENDAR_ID is not set in .env"}), 500
+
+    event = request.json or {}
+    changes = {}
+    if "summary" in event:
+        changes["summary"] = event["summary"] or "Untitled Event"
+    for field in ("location", "description"):
+        if field in event:
+            changes[field] = event[field] or ""
+    for field in ("start", "end"):
+        if event.get(field):
+            changes[field] = {"dateTime": event[field], "timeZone": "America/Chicago"}
+
+    if not changes:
+        return jsonify({"error": "No changes were sent"}), 400
+
+    try:
+        updated = get_calendar_service().events().patch(
+            calendarId=calendar_id, eventId=event_id, body=changes
+        ).execute()
+        return jsonify({"id": updated["id"], "htmlLink": updated.get("htmlLink")})
+    except Exception as e:
+        return calendar_error_response(e, "updating")
+
+# Delete an event that was added through this app
+@app.route("/api/calendar/events/<event_id>", methods=["DELETE"])
+def delete_calendar_event(event_id):
+    calendar_id = os.getenv("GOOGLE_CALENDAR_ID")
+    if not calendar_id:
+        return jsonify({"error": "GOOGLE_CALENDAR_ID is not set in .env"}), 500
+
+    try:
+        get_calendar_service().events().delete(calendarId=calendar_id, eventId=event_id).execute()
+        return jsonify({"status": "deleted"})
+    except Exception as e:
+        return calendar_error_response(e, "deleting")
+
 # Email processing endpoints
 @app.route("/api/process_emails", methods=["POST"])
 def process_emails():
