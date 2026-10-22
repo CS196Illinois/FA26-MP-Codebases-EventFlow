@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log In | EventFlow</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-logo">
+        <img src="{{ url_for('static', filename='images/Illinois_Block_I.png') }}" alt="Illinois Block I" class="logo-img">
+        <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="EventFlow Logo" class="logo-img">
+        <h1>EventFlow @ Illinois</h1>
+      </div>
+    </header>
+
+    <section class="login-section">
+      <form method="post" action="{{ url_for('login') }}" class="modal-content login-card">
+        {{ form.hidden_tag() }}
+        <h3>Log In</h3>
+        <p>Sign in with the account you added to <code>users.json</code>.</p>
+
+        {% with messages = get_flashed_messages() %}
+          {% for message in messages %}
+            <div class="login-error" role="alert">{{ message }}</div>
+          {% endfor %}
+        {% endwith %}
+
+        {{ form.username.label }}
+        {{ form.username(autocomplete="username", autofocus=true, placeholder="Username") }}
+        {{ form.password.label }}
+        {{ form.password(autocomplete="current-password", placeholder="Password") }}
+
+        <div class="modal-buttons">
+          <button type="submit" class="btn-primary">Log In</button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      Copyright © 2025 EventFlow
+    </footer>
+  </div>
+</body>
+</html>

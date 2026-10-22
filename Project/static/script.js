@@ -214,6 +214,7 @@ async function handleParseText() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "X-CSRFToken": getCsrfToken(),
       },
       body: JSON.stringify({ text }),
     });
@@ -278,6 +279,11 @@ function clearEventForm() {
 // Helper function to format date for Google Calendar URL
 function formatGoogleDate(date) {
   return date.toISOString().replace(/-|:|\.\d+/g, '');
+}
+
+// CSRF token rendered into <meta name="csrf-token"> by Flask-WTF; send it on every POST
+export function getCsrfToken() {
+  return document.querySelector('meta[name="csrf-token"]')?.content || "";
 }
 
 // Format date as "Month Day, Year" (e.g., "November 30, 2025")

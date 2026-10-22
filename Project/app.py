@@ -1,5 +1,10 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, redirect, url_for, flash
 from flask_cors import CORS
+from flask_login import LoginManager, login_required, login_user, logout_user, current_user
+from flask_wtf import FlaskForm
+from flask_wtf.csrf import CSRFProtect, CSRFError
+from wtforms import StringField, PasswordField
+from wtforms.validators import DataRequired
 import os
 import sys
 from datetime import datetime
@@ -19,9 +24,59 @@ from parse_email import (
 
 load_dotenv()
 
+from auth import User, check_credentials, load_users
+
 # Creates the flask app
 app = Flask(__name__)
+# Signs the login session cookie. Without SECRET_KEY in .env a random one is used,
+# which logs everyone out whenever the server restarts.
+app.secret_key = os.getenv("SECRET_KEY") or os.urandom(32)
 CORS(app)
+# Every POST/PUT/PATCH/DELETE must carry a CSRF token (form field or X-CSRFToken header)
+csrf = CSRFProtect(app)
+
+login_manager = LoginManager(app)
+
+@login_manager.user_loader
+def load_user(username):
+    return User(username) if username in load_users() else None
+
+@login_manager.unauthorized_handler
+def unauthorized():
+    # API callers get a JSON error; browsers get sent to the login page
+    if request.path.startswith("/api/"):
+        return jsonify({"error": "Login required"}), 401
+    return redirect(url_for("login"))
+
+@app.errorhandler(CSRFError)
+def handle_csrf_error(e):
+    if request.path.startswith("/api/"):
+        return jsonify({"error": f"CSRF check failed: {e.description}"}), 400
+    flash("Your session expired. Please try again.")
+    return redirect(url_for("login"))
+
+class LoginForm(FlaskForm):
+    username = StringField("Username", validators=[DataRequired()])
+    password = PasswordField("Password", validators=[DataRequired()])
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if current_user.is_authenticated:
+        return redirect(url_for("index"))
+    form = LoginForm()
+    if form.validate_on_submit():
+        user = check_credentials(form.username.data, form.password.data)
+        if user:
+            login_user(user)
+            return redirect(url_for("index"))
+        flash("Invalid username or password.")
+    return render_template("login.html", form=form)
+
+@app.route("/logout", methods=["POST"])
+@login_required
+def logout():
+    logout_user()
+    return redirect(url_for("login"))
 
 # Get environment variables for Microsoft auth
 TENANT_ID = os.getenv("TENANT_ID")
@@ -29,6 +84,7 @@ CLIENT_ID = os.getenv("CLIENT_ID")
 
 # Loads the home page
 @app.route("/")
+@login_required
 def index():
     # Browser-side config comes from .env so no keys live in the templates/static files
     firebase_config = {
@@ -61,6 +117,7 @@ def get_calendar_service():
     return build("calendar", "v3", credentials=creds, cache_discovery=False)
 
 @app.route("/api/calendar/events", methods=["POST"])
+@login_required
 def add_calendar_event():
     calendar_id = os.getenv("GOOGLE_CALENDAR_ID")
     if not calendar_id:
@@ -86,6 +143,7 @@ def add_calendar_event():
 
 # Email processing endpoints
 @app.route("/api/process_emails", methods=["POST"])
+@login_required
 def process_emails():
     """Fetch emails, parse them, and return events (no Firebase storage)"""
     try:
@@ -132,6 +190,7 @@ def process_emails():
 
 # Streaming endpoint for real-time event processing
 @app.route("/api/process_emails_stream", methods=["GET"])
+@login_required
 def process_emails_stream():
     """Fetch and parse emails with streaming updates"""
     import json
@@ -180,11 +239,13 @@ def process_emails_stream():
 
 # Test endpoint
 @app.route("/api/test", methods=["GET"])
+@login_required
 def test():
     return jsonify({"status": "API is working!"}), 200
 
 # Parse custom text endpoint
 @app.route("/api/parse_text", methods=["POST"])
+@login_required
 def parse_text():
     """Parse custom text input to extract event information"""
     print("\n" + "="*50)

@@ -98,8 +98,31 @@ EventFlow needs two files from PrairieLearn plus one key you make yourself.
 The settings file must be named exactly `.env` (that's the name the app looks for). Its name
 starts with a dot, so your file browser may hide it. That's normal.
 
-**Never share or commit these files.** `.env` and `EventFlow-calendar-key.json` are secret.
-Git is already set to ignore them.
+**Never share or commit these files.** `.env`, `EventFlow-calendar-key.json` and `users.json`
+(next step) are secret. Git is already set to ignore them.
+
+### Create your login
+
+EventFlow asks you to log in before it shows anything. Accounts live in **`users.json`** in
+the project folder, which maps each username to a **hashed** password (never the password
+itself):
+```json
+{
+  "YOUR-USERNAME": "$pbkdf2-sha256$29000$..."
+}
+```
+Don't type the hash by hand. Run this script, which asks for a password, hashes it with
+`pbkdf2_sha256` and appends it to `users.json` under your username (it creates the file the
+first time). Do this **after** step 4's `pip install`, since the script needs those packages:
+```bash
+python Project/add_user.py YOUR-USERNAME
+```
+Run it again with the same username to change that password, or with a new username to add
+another account. Then log in at <http://127.0.0.1:5000/login>.
+
+Optional: add a line `SECRET_KEY=` to `.env` with a long random value
+(`python -c "import secrets; print(secrets.token_hex(32))"`) so you stay logged in when the
+server restarts. Without it, you have to log in again after every restart.
 
 ---
 
@@ -125,10 +148,22 @@ cd Project
 python app.py
 ```
 
-Open <http://127.0.0.1:5000>. You should see a list of events. Click **+ Add** on one, and it
+If you haven't made a login yet, do it now (see [Create your login](#create-your-login)):
+```bash
+python add_user.py YOUR-USERNAME          # you're already inside Project/
+```
+
+Open <http://127.0.0.1:5000>. It sends you to the login page first. Log in with the username
+and password you just made, and you should see a list of events. Click **+ Add** on one, and it
 appears on the shared calendar at the top of the page.
 
 To stop the website, press **Ctrl + C** in the terminal.
+
+To run the automated tests (from the project folder, not `Project/`):
+```bash
+pip install pytest                         # first time only
+python -m pytest Project/tests
+```
 
 ---
 

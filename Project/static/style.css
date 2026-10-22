@@ -780,6 +780,42 @@ header h1 {
   border-color: #13294B;
 }
 
+/* ========== LOGIN PAGE ========== */
+.login-section {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0;
+}
+
+.login-card {
+  max-height: none;
+  border: 3px solid #E84A27;
+}
+
+.modal-content input[type="password"] {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.login-error {
+  background: rgba(239, 83, 80, 0.1);
+  border: 2px solid var(--error);
+  color: #B71C1C;
+  border-radius: var(--radius-md);
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.logout-form {
+  display: inline;
+}
+
 /* Detail Modal Specific Styles */
 #detail-title {
   font-size: 28px;

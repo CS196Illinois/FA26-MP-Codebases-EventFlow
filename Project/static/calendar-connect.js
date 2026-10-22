@@ -5,7 +5,7 @@
 // endpoint /api/calendar/events, which writes with a service account.
 
 // Import shared functions from script.js
-import { showToast, refreshCalendars } from './script.js';
+import { showToast, refreshCalendars, getCsrfToken } from './script.js';
 
 // Wait for page to load
 document.addEventListener('DOMContentLoaded', function() {
@@ -95,7 +95,7 @@ export async function addEventToGoogleCalendar(event) {
     try {
         const response = await fetch('/api/calendar/events', {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: { 'Content-Type': 'application/json', 'X-CSRFToken': getCsrfToken() },
             body: JSON.stringify({
                 summary: event.summary || 'Untitled Event',
                 location: event.location || '',

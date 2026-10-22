@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="csrf-token" content="{{ csrf_token() }}" />
   <title>EventFlow | Illinois</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
@@ -25,6 +26,10 @@
           ✅ Connected as <span id="user-email"></span>
           <button id="disconnect-btn" class="disconnect-btn">Disconnect</button>
         </span>
+        <form method="post" action="{{ url_for('logout') }}" class="logout-form">
+          <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+          <button type="submit" class="refresh-btn">Log Out ({{ current_user.id }})</button>
+        </form>
       </div>
     </header>
 

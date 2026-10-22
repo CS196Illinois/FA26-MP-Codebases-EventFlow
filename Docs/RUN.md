@@ -20,6 +20,7 @@ cp ~/Downloads/EventFlow-config.env .env   # or: cp .env.example .env, then fill
 # put EventFlow-calendar-key.json in the repo root, next to .env (it's gitignored)
 
 cd Project
+python add_user.py YOUR-USERNAME       # creates ../users.json with a hashed password
 python app.py                          # http://127.0.0.1:5000
 ```
 
@@ -37,6 +38,13 @@ Open **http://127.0.0.1:5000**.
 | `CLIENT_ID`, `TENANT_ID` | Import events from Outlook (Microsoft Graph) | No |
 | `OPENAI_KEY` | LLM event extraction (OpenRouter key) | **Yes, keep it private** |
 | `OPENROUTER_MODEL` | Which OpenRouter model to use | No |
+| `SECRET_KEY` | Signs the login session cookie (random per restart if unset) | **Yes** |
+| `USERS_FILE` | Login accounts file, default `users.json` in the repo root | **The file is secret** |
+
+Login: every page and `/api/*` endpoint needs a session (Flask-Login). Logged-out API
+calls get `401`; every POST also needs a CSRF token (Flask-WTF), sent by the frontend as
+the `X-CSRFToken` header from the page's `csrf-token` meta tag. Accounts are
+`{"username": "<pbkdf2_sha256 hash>"}` in `users.json`, written by `Project/add_user.py`.
 
 Browser-side values are injected into `templates/index.html` by `app.py`'s `/` route.
 The app still loads when a feature's variables are missing; that feature just shows a

@@ -4,3 +4,4 @@ token.json
 .env
 service-account*.json
 *calendar-key*.json
+users.json
