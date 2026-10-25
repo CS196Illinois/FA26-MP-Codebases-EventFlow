@@ -585,8 +585,26 @@ export function createEventCard(event, options = {}) {
   };
 
   const addButton = card.querySelector('.add-to-calendar-btn');
-  addButton.onclick = function() {
-    addEventToGoogleCalendar(event);
+  addButton.onclick = async function() {
+    if (addButton.disabled) return;
+
+    addButton.disabled = true;
+    addButton.textContent = 'Adding...';
+
+    try {
+      const result = await addEventToGoogleCalendar(event);
+
+      if (result) {
+        addButton.textContent = 'Added';
+      } else {
+        addButton.disabled = false;
+        addButton.textContent = '+ Add';
+      }
+    } catch (error) {
+      console.error(error);
+      addButton.disabled = false;
+      addButton.textContent = '+ Add';
+    }
   };
 
   return card;
