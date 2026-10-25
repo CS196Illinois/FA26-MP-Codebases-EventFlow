@@ -227,12 +227,8 @@ async function handleParseText() {
       document.getElementById("event-modal").style.display = "none";
       clearEventForm();
 
-      // Call Google Calendar API to add event
-      const response = await addEventToGoogleCalendar(event);
-
-      if (!response) {
-        showToast("Error", "Failed to add event to calendar", "error");
-      }
+      // Call Google Calendar API to add event (it shows its own success/error toast)
+      await addEventToGoogleCalendar(event);
     } else {
       showToast("Parse Error", data.error || "Could not parse event from text", "error");
     }
