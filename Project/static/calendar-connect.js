@@ -113,6 +113,10 @@ export async function addEventToGoogleCalendar(event) {
             refreshCalendars();
 
             return result;
+        } else if (response.status === 409) {
+            // Flask found the same title and start time already on the shared calendar
+            showToast('Already Added', `"${event.summary}" is already on the shared calendar`, 'warning');
+            return null;
         } else {
             console.error('Error adding event to calendar:', result.error);
             showToast('Failed', result.error || 'Could not add event to calendar', 'error');
