@@ -3,11 +3,16 @@ from flask_cors import CORS
 import os
 import sys
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from dotenv import load_dotenv
 from pathlib import Path
 
 # Base directory for this module
 BASE_DIR = Path(__file__).resolve().parent
+
+# UIUC events are in Chicago time. ZoneInfo picks the right UTC offset for each date:
+# -05:00 during daylight saving time (March to November) and -06:00 the rest of the year.
+CHICAGO_TZ = ZoneInfo("America/Chicago")
 
 # Add the email_parser directory to the Python path so we can import from readEmail
 sys.path.append(os.path.join(os.path.dirname(__file__), 'email_parser'))
@@ -244,13 +249,13 @@ def format_email_event(event):
             # Fall back to 12-hour format (HH:MM AM/PM)
             start_dt = datetime.strptime(f"{start_date} {start_time}", "%Y-%m-%d %I:%M %p")
 
-        start_iso = start_dt.strftime("%Y-%m-%dT%H:%M:%S-06:00")
+        start_iso = start_dt.replace(tzinfo=CHICAGO_TZ).isoformat()
         # Format readable date
         formatted_start_date = start_dt.strftime("%B %d, %Y")
     except Exception as e:
         # Fallback if parsing fails
         print(f"Error parsing start date/time: {e}")
-        start_iso = datetime.now().strftime("%Y-%m-%dT%H:%M:%S-06:00")
+        start_iso = datetime.now(CHICAGO_TZ).replace(microsecond=0).isoformat()
         formatted_start_date = start_date if start_date else "Unknown Date"
 
     try:
@@ -261,11 +266,11 @@ def format_email_event(event):
             # Fall back to 12-hour format (HH:MM AM/PM)
             end_dt = datetime.strptime(f"{end_date} {end_time}", "%Y-%m-%d %I:%M %p")
 
-        end_iso = end_dt.strftime("%Y-%m-%dT%H:%M:%S-06:00")
+        end_iso = end_dt.replace(tzinfo=CHICAGO_TZ).isoformat()
     except Exception as e:
         # Fallback if parsing fails
         print(f"Error parsing end date/time: {e}")
-        end_iso = datetime.now().strftime("%Y-%m-%dT%H:%M:%S-06:00")
+        end_iso = datetime.now(CHICAGO_TZ).replace(microsecond=0).isoformat()
 
     return {
         "summary": event.get("title", "Untitled Event"),
