@@ -4,3 +4,4 @@ lxml
 playwright
 requests
 firebase_admin
+pypdf
