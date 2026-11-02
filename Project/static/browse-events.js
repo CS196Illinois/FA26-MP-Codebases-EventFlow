@@ -8,7 +8,8 @@ import {
   formatTime,
   parseEventData,
   createEventCard,
-  showEventDetails
+  showEventDetails,
+  getEventVenue
 } from './script.js';
 
 // Import calendar functions from calendar-connect.js
@@ -35,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const browseContainer = document.getElementById("browse-events");
   const searchInput = document.getElementById("search-events");
   const categorySelect = document.getElementById("filter-category");
+  const venueSelect = document.getElementById("filter-venue");
   const detailModal = document.getElementById("detail-modal");
   const closeButton = document.getElementById("close-detail");
 
@@ -82,6 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Now that we have all events, set up the page
         setupCategories();
+        setupVenues();
         displayEvents(allEvents);
     } catch (error) {
         console.error('Error loading events:', error);
@@ -172,6 +175,39 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
+  // ========== Setup Venue Filter ==========
+  // Entertainment events have a venue sub-category (State Farm Center, Krannert Center, Virginia Theatre)
+  function setupVenues() {
+    let venues = [];
+
+    for (let i = 0; i < allEvents.length; i++) {
+      let venue = getEventVenue(allEvents[i]);
+
+      if (venue && !venues.includes(venue)) {
+        venues.push(venue);
+      }
+    }
+
+    venues.sort();
+
+    for (let i = 0; i < venues.length; i++) {
+      let option = document.createElement('option');
+      option.value = venues[i];
+      option.textContent = venues[i];
+      venueSelect.appendChild(option);
+    }
+  }
+
+  // Only show the venue dropdown while the Entertainment category is selected
+  function updateVenueFilter() {
+    if (categorySelect.value === 'Entertainment') {
+      venueSelect.style.display = '';
+    } else {
+      venueSelect.style.display = 'none';
+      venueSelect.value = 'all';
+    }
+  }
+
   // ========== STEP 3: Display Events ==========
   // Show events as cards on the page
   function displayEvents(events) {
@@ -196,6 +232,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function searchEvents() {
     let searchText = searchInput.value.toLowerCase();
     let selectedCategory = categorySelect.value;
+    let selectedVenue = venueSelect.value;
     let filtered = [];
 
     // Go through all events
@@ -222,8 +259,16 @@ document.addEventListener("DOMContentLoaded", function() {
         matchesCategory = true;
       }
 
-      // If both match, add to filtered list
-      if (matchesSearch && matchesCategory) {
+      // Check if event matches selected venue (only set while Entertainment is selected)
+      let matchesVenue = false;
+      if (selectedVenue === 'all') {
+        matchesVenue = true;
+      } else if (getEventVenue(event) === selectedVenue) {
+        matchesVenue = true;
+      }
+
+      // If all match, add to filtered list
+      if (matchesSearch && matchesCategory && matchesVenue) {
         filtered.push(event);
       }
     }
@@ -237,7 +282,13 @@ document.addEventListener("DOMContentLoaded", function() {
   searchInput.addEventListener('input', searchEvents);
 
   // When user changes category dropdown
-  categorySelect.addEventListener('change', searchEvents);
+  categorySelect.addEventListener('change', function() {
+    updateVenueFilter();
+    searchEvents();
+  });
+
+  // When user changes venue dropdown
+  venueSelect.addEventListener('change', searchEvents);
 
   // When user clicks X to close modal
   closeButton.addEventListener('click', function() {

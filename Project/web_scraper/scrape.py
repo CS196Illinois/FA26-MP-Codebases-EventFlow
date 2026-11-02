@@ -436,8 +436,9 @@ def scrape_krannert():
                 "tag": "Entertainment",
                 "venue": "Krannert Center"
             }
+            # Keep the venue first so it's what the event card shows
             if hall:
-                base_info["location"] = f"{hall.text.strip()}, {base_info['location']}"
+                base_info["location"] = f"Krannert Center - {hall.text.strip()}, 500 S Goodwin Ave, Urbana, IL 61801"
 
             # One event per performance - "Mo Nov 09, 2026 - 7:30pm CT"
             starts = []
