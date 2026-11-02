@@ -27,7 +27,9 @@ const firebaseConfig = window.FIREBASE_CONFIG;
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getDatabase(app);
+
+// ?sample=1 loads web_scraper/sample_events.json through Flask instead of Firebase (for local testing)
+const useSampleData = new URLSearchParams(window.location.search).has('sample');
 
 // Wait for the page to fully load before running our code
 document.addEventListener("DOMContentLoaded", function() {
@@ -47,13 +49,21 @@ document.addEventListener("DOMContentLoaded", function() {
   // Convert the events object from the server into an array
   async function loadEvents() {
     try {
-        // Fetch events from the firesebase database
-        const eventsRef = ref(db, "scraped_events");
-        const snapshot = await get(eventsRef);
-        
         let eventsData = null;
-        if (snapshot.exists()) {
-            eventsData = snapshot.val();
+
+        if (useSampleData) {
+            // Fetch the sample events from Flask
+            const response = await fetch('/sample-events');
+            eventsData = await response.json();
+        } else {
+            // Fetch events from the firesebase database
+            // getDatabase is called here so sample mode works without Firebase config in .env
+            const eventsRef = ref(getDatabase(app), "scraped_events");
+            const snapshot = await get(eventsRef);
+
+            if (snapshot.exists()) {
+                eventsData = snapshot.val();
+            }
         }
 
         // Check if we got data back
