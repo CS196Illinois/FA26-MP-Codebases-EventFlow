@@ -81,7 +81,8 @@ and `FIREBASE_DATABASE_URL`. `sample_events.json` is a snapshot you can load wit
 Realtime Database → ⋮ → Import JSON.
 
 To try the events page without Firebase, run `app.py` and open
-`http://localhost:5000/?sample=1`. It loads `sample_events.json` instead of the database.
+`http://127.0.0.1:5000/?sample=1` (on a Mac, `localhost:5000` can hit the AirPlay Receiver
+instead). It loads `sample_events.json` instead of the database.
 
 ## Code map
 
