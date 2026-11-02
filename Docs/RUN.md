@@ -56,19 +56,32 @@ warning.
 
 ## Scraper
 
-`Project/web_scraper/scrape.py` scrapes calendars.illinois.edu, State Farm Center (via
-Playwright) and fightingillini.com.
+`Project/web_scraper/scrape.py` scrapes these sources. Each event gets a `tag` (its category):
+
+| Scraper | Source | Tag |
+|---|---|---|
+| `scrape_state_farm()` | statefarmcenter.com (via Playwright) | Entertainment, venue `State Farm Center`; Illini games → Athletics |
+| `scrape_krannert()` | krannertcenter.com calendar, next 3 months | Entertainment, venue `Krannert Center` |
+| `scrape_virginia()` | thevirginia.showare.com JSON performance list | Entertainment, venue `Virginia Theatre` |
+| `scrape_athletics()` | fightingillini.com | Athletics |
+| `scrape_general()` | calendars.illinois.edu | from the event's type |
+| `scrape_academics()` | senate.illinois.edu academic calendar PDFs + registrar.illinois.edu term pages | Academics (all-day) |
+
+If one scraper fails, `scrape()` prints the error and keeps the others.
 
 ```bash
 playwright install chromium            # once
 cd Project/web_scraper
-python -c "import scrape; print(len(scrape.scrape()))"   # local run, prints only
+python -c "import scrape; print(len(scrape.scrape()))"   # local run, prints only (needs `pip install modal`)
 ```
 
 In production it runs daily on [Modal](https://modal.com): `modal deploy scrape.py`.
 That needs a Modal secret `firebase-creds` with `FIREBASE_CREDENTIALS` (service-account JSON)
 and `FIREBASE_DATABASE_URL`. `sample_events.json` is a snapshot you can load with
 Realtime Database → ⋮ → Import JSON.
+
+To try the events page without Firebase, run `app.py` and open
+`http://localhost:5000/?sample=1`. It loads `sample_events.json` instead of the database.
 
 ## Code map
 
@@ -85,5 +98,8 @@ Project/
 
 - **The athletics and campus-calendar scrapers are broken.** fightingillini.com and
   calendars.illinois.edu were redesigned in 2026, so the selectors no longer match.
-  `scrape()` raises in `scrape_athletics()`. Only the State Farm Center scraper still works.
+  `scrape_athletics()` raises and `scrape_general()` finds nothing; Illini basketball games
+  still come in through the State Farm Center scraper.
+- The registrar doesn't publish when first-half (8-week) courses end, so there is no
+  academic event for it.
 - `__pycache__/` folders are committed.
