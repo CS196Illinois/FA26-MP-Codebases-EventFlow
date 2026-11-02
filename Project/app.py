@@ -1,8 +1,9 @@
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
+import json
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 from pathlib import Path
 
@@ -46,6 +47,12 @@ def index():
         google_calendar_id=os.getenv("GOOGLE_CALENDAR_ID", ""),
     )
 
+# Local testing without Firebase: open /?sample=1 and the events page loads this file instead
+@app.route("/sample-events")
+def sample_events():
+    with open(BASE_DIR / "web_scraper" / "sample_events.json") as f:
+        return jsonify(json.load(f)["scraped_events"])
+
 # Shared Google Calendar: everyone views the same public calendar, and events are
 # written server-side by a service account that has edit access to that one calendar.
 def get_calendar_service():
@@ -77,6 +84,17 @@ def add_calendar_event():
         "start": {"dateTime": event["start"], "timeZone": "America/Chicago"},
         "end": {"dateTime": event["end"], "timeZone": "America/Chicago"},
     }
+
+    # Scraped all-day events (academic dates) run 12:00 AM - 11:59 PM, add them as real all-day events
+    try:
+        start = datetime.fromisoformat(event["start"])
+        end = datetime.fromisoformat(event["end"])
+        if (start.hour, start.minute) == (0, 0) and (end.hour, end.minute) == (23, 59):
+            # Google's all-day end date is exclusive
+            event_data["start"] = {"date": start.date().isoformat()}
+            event_data["end"] = {"date": (end.date() + timedelta(days=1)).isoformat()}
+    except ValueError:
+        pass
     try:
         created = get_calendar_service().events().insert(calendarId=calendar_id, body=event_data).execute()
         return jsonify({"id": created["id"], "htmlLink": created.get("htmlLink")}), 201

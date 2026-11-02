@@ -592,6 +592,21 @@ export function createEventCard(event, options = {}) {
   return card;
 }
 
+// Venue (sub-category) for Entertainment events
+// Data scraped before the venue field existed only has State Farm Center events
+export function getEventVenue(event) {
+  if (event.tag !== 'Entertainment') {
+    return '';
+  }
+  if (event.venue) {
+    return event.venue;
+  }
+  if (event.location && event.location.includes('State Farm Center')) {
+    return 'State Farm Center';
+  }
+  return '';
+}
+
 // Show event details in modal
 export function showEventDetails(event, hideEventLink = false) {
   const detailModal = document.getElementById('detail-modal');
@@ -607,7 +622,9 @@ export function showEventDetails(event, hideEventLink = false) {
   }
 
   document.getElementById('detail-location').textContent = event.location || 'TBA';
-  document.getElementById('detail-tag').textContent = event.tag || 'General';
+  // Show the venue next to the category, e.g. "Entertainment · Krannert Center"
+  const venue = getEventVenue(event);
+  document.getElementById('detail-tag').textContent = (event.tag || 'General') + (venue ? ' · ' + venue : '');
   document.getElementById('detail-description').textContent = event.description || 'No description available.';
 
   // Set the event link if it exists

@@ -1,490 +1,1548 @@
 {
  "scraped_events": {
   "0": {
-   "summary": "MGNA CRRRTA",
+   "summary": "ILLINI MBB VS. Fairleigh Dickinson",
    "description": "",
-   "htmlLink": "https://www.statefarmcenter.com/events/detail/mgna",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvsfd",
    "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
-   "tag": "Entertainment",
-   "start": "2026-10-13T19:00:00-05:00",
-   "end": "2026-10-13T22:00:00-05:00"
+   "tag": "Athletics",
+   "start": "2026-11-02T19:00:00-06:00",
+   "end": "2026-11-02T22:00:00-06:00"
   },
   "1": {
-   "summary": "THE WIZ",
-   "description": "The Tony\u00ae Award-winning Best Musical that took the world by storm is back.  THE WIZ returns \u201chome\u201d to stages across America in an all-new tour, direct from Broadway. The Baltimore Sun raves \u201cPowerhouse performances. Stunning choreography. Visionary sets\u201d and the Chicago Sun-Times proclaims THE WIZ is \u201cAn eye-popping and high-intensity revival!\u201d This groundbreaking twist on The Wizard of Oz changed the face of Broadway\u2014from its iconic score packed with soul, gospel, rock, and 70s funk to its stirring tale of Dorothy\u2019s journey to find her place in a contemporary world. Everybody rejoice--this dynamite infusion of ballet, jazz, and modern pop brings a whole new groove to easing on down the road!",
-   "htmlLink": "https://www.statefarmcenter.com/events/detail/thewiz",
+   "summary": "ILLINI WBB VS. Detroit Mercy",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvsdm",
    "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
-   "tag": "Entertainment",
-   "start": "2026-10-14T19:30:00-05:00",
-   "end": "2026-10-14T22:30:00-05:00"
+   "tag": "Athletics",
+   "start": "2026-11-04T18:00:00-06:00",
+   "end": "2026-11-04T21:00:00-06:00"
   },
   "2": {
+   "summary": "ILLINI MBB VS. Penn",
    "description": "",
-   "end": "2026-10-19T17:00:00-05:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-10-19T14:00:00-05:00",
-   "summary": "Men's Basketball Game: Illinois VS. Illinois State (Exh.)",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvpenn",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-11-05T19:30:00-06:00",
+   "end": "2026-11-05T22:30:00-06:00"
   },
   "3": {
-   "summary": "Waitress",
-   "description": "Meet Jenna, a waitress and expert pie-maker who dreams of a way out of her small town and rocky marriage. Pouring her heart into her pies, she crafts desserts that mirror her topsy-turvy life such as \u201cThe Key (Lime) to Happiness Pie\u201d and \u201cBetrayed By My Eggs Pie.\u201d When a baking contest in a nearby county \u2014 and a satisfying encounter with someone new \u2014 show Jenna a chance at a fresh start, she must find the courage to seize it. Change is on the menu, as long as Jenna can write her own perfectly personal recipe for happiness. Brought to life by a groundbreaking creative team, this hilarious hit Broadway musical features original music and lyrics by Grammy\u00ae Award winner Sara Bareilles (\"Brave,\" \"Love Song\"), a book by acclaimed screenwriter Jessie Nelson (I Am Sam), original choreography by Lorin Latarro (Mrs. Doubtfire, Chess) and original direction by Tony Award\u00ae winner Diane Paulus (1776, Jagged Little Pill, Pippin). \u201cWAITRESS is a little slice of heaven!\u201d says Entertainment Weekly, and is \u201csweet, sassy and passionate,\u201d according to New York Magazine.  \"It's an empowering musical of the highest order!\" raves the Chicago Tribune. Don't miss this uplifting and hilarious musical celebrating friendship, motherhood, and the magic of a well-made pie.",
-   "htmlLink": "https://www.statefarmcenter.com/events/detail/waitress",
+   "summary": "ILLINI WBB VS. Southern",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvssouthern-1",
    "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
-   "tag": "Entertainment",
-   "start": "2026-10-19T19:30:00-05:00",
-   "end": "2026-10-19T22:30:00-05:00"
+   "tag": "Athletics",
+   "start": "2026-11-07T14:00:00-06:00",
+   "end": "2026-11-07T17:00:00-06:00"
   },
   "4": {
+   "summary": "ILLINI MBB VS. Sam Houston",
    "description": "",
-   "end": "2026-10-24T22:00:00-05:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
-   "location": "Huff Hall",
-   "start": "2026-10-24T19:00:00-05:00",
-   "summary": "Volleyball Game: Illinois VS. Purdue",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvsh",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-11-13T18:00:00-06:00",
+   "end": "2026-11-13T21:00:00-06:00"
   },
   "5": {
+   "summary": "ILLINI MBB VS. Winthrop",
    "description": "",
-   "end": "2026-10-25T22:00:00-05:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
-   "location": "Huff Hall",
-   "start": "2026-10-25T19:00:00-05:00",
-   "summary": "Volleyball Game: Illinois VS. Michigan",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvswinthrop",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-11-20T19:00:00-06:00",
+   "end": "2026-11-20T22:00:00-06:00"
   },
   "6": {
+   "summary": "ILLINI MBB VS. Eastern Illinois",
    "description": "",
-   "end": "2026-10-30T21:00:00-05:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-10-30T18:00:00-05:00",
-   "summary": "Women's Basketball Game: Illinois VS. Maryville (EXH)",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvseiu-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-11-20T20:00:00-06:00",
+   "end": "2026-11-20T23:00:00-06:00"
   },
   "7": {
+   "summary": "ILLINI MBB VS. Western Kentucky",
    "description": "",
-   "end": "2026-11-02T16:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
-   "location": "Huff Hall",
-   "start": "2026-11-02T13:00:00-06:00",
-   "summary": "Volleyball Game: Illinois VS. Iowa",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvswesternkentucky",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-11-27T17:00:00-06:00",
+   "end": "2026-11-27T20:00:00-06:00"
   },
   "8": {
-   "description": "",
-   "end": "2026-11-03T22:30:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-11-03T19:30:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Jackson State",
-   "tag": "Athletics"
-  },
-  "9": {
-   "description": "",
-   "end": "2026-11-04T21:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-11-04T18:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. SEMO",
-   "tag": "Athletics"
-  },
-  "10": {
-   "description": "",
-   "end": "2026-11-06T22:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/football/schedule",
-   "location": "Gies Memorial Stadium, Champaign, Ill.",
-   "start": "2026-11-06T19:00:00-06:00",
-   "summary": "Football Game: Illinois VS. Nebraska",
-   "tag": "Athletics"
-  },
-  "11": {
-   "description": "",
-   "end": "2026-11-07T22:30:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-11-07T19:30:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Florida Gulf Coast",
-   "tag": "Athletics"
-  },
-  "12": {
-   "description": "",
-   "end": "2026-11-09T15:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-11-09T12:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Illinois State",
-   "tag": "Athletics"
-  },
-  "13": {
-   "description": "",
-   "end": "2026-11-09T18:30:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
-   "location": "Huff Hall",
-   "start": "2026-11-09T15:30:00-06:00",
-   "summary": "Volleyball Game: Illinois VS. Penn State",
-   "tag": "Athletics"
-  },
-  "14": {
-   "description": "",
-   "end": "2026-11-11T22:30:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-11-11T19:30:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Texas Tech",
-   "tag": "Athletics"
-  },
-  "15": {
-   "description": "",
-   "end": "2026-11-14T21:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
-   "location": "Huff Hall",
-   "start": "2026-11-14T18:00:00-06:00",
-   "summary": "Volleyball Game: Illinois VS. Washington",
-   "tag": "Athletics"
-  },
-  "16": {
-   "description": "",
-   "end": "2026-11-14T23:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-11-14T20:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Colgate",
-   "tag": "Athletics"
-  },
-  "17": {
-   "description": "",
-   "end": "2026-11-15T23:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
-   "location": "Huff Hall",
-   "start": "2026-11-15T20:00:00-06:00",
-   "summary": "Volleyball Game: Illinois VS. Wisconsin",
-   "tag": "Athletics"
-  },
-  "18": {
-   "description": "",
-   "end": "2026-11-18T14:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-11-18T11:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Murray State",
-   "tag": "Athletics"
-  },
-  "19": {
-   "description": "",
-   "end": "2026-11-22T16:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-11-22T13:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Long Island",
-   "tag": "Athletics"
-  },
-  "20": {
-   "description": "",
-   "end": "2026-11-24T22:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-11-24T19:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. UT Rio Grande Valley",
-   "tag": "Athletics"
-  },
-  "21": {
-   "description": "",
-   "end": "2026-11-26T21:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-11-26T18:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Western Kentucky",
-   "tag": "Athletics"
-  },
-  "22": {
-   "description": "",
-   "end": "2026-11-26T23:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
-   "location": "Huff Hall",
-   "start": "2026-11-26T20:00:00-06:00",
-   "summary": "Volleyball Game: Illinois VS. Indiana",
-   "tag": "Athletics"
-  },
-  "23": {
-   "description": "",
-   "end": "2026-11-28T22:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-volleyball/schedule",
-   "location": "Huff Hall",
-   "start": "2026-11-28T19:00:00-06:00",
-   "summary": "Volleyball Game: Illinois VS. Northwestern",
-   "tag": "Athletics"
-  },
-  "24": {
-   "description": "",
-   "end": "2026-11-30T17:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-11-30T14:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Le Moyne",
-   "tag": "Athletics"
-  },
-  "25": {
-   "description": "",
-   "end": "2026-12-02T21:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-12-02T18:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Bellarmine",
-   "tag": "Athletics"
-  },
-  "26": {
    "summary": "Lindsey Stirling - The Snow Waltz Tour",
    "description": "Lindsey Stirling brings her spectacular Snow Waltz Tour to State Farm Center this holiday season. The award-winning violinist, dancer and entertainer delivers a one-of-a-kind holiday experience featuring breathtaking choreography, stunning visuals and Lindsey\u2019s genre-defying arrangements of holiday classics and original music. Blending classical violin with electronic, pop and rock influences, Stirling has created a live show unlike anything else \u2014 combining virtuosic musicianship with dance, theatrical production and aerial performance. Her annual holiday tour has become a seasonal tradition, bringing the music of her acclaimed Christmas albums Warmer in the Winter and Snow Waltz to life on stage. $1 per ticket goes towards Lindsey\u2019s foundation, The Upside Fund, which focuses on\u202fequitable healthcare and medical debt relief, mental health access, and nutrition education and food justice.",
    "htmlLink": "https://www.statefarmcenter.com/events/detail/snowwaltz",
    "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
    "tag": "Entertainment",
+   "venue": "State Farm Center",
    "start": "2026-12-05T19:00:00-06:00",
    "end": "2026-12-05T22:00:00-06:00"
   },
-  "27": {
+  "9": {
+   "summary": "ILLINI WBB VS. Chicago State - Field Trip Day",
    "description": "",
-   "end": "2026-12-06T14:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-12-06T11:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Indiana",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvschicagostate",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-12-07T11:00:00-06:00",
+   "end": "2026-12-07T14:00:00-06:00"
   },
-  "28": {
+  "10": {
+   "summary": "ILLINI WBB VS. Missouri",
    "description": "",
-   "end": "2026-12-13T18:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-12-13T15:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Nebraska",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvsmissouri",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-12-10T19:00:00-06:00",
+   "end": "2026-12-10T22:00:00-06:00"
   },
-  "29": {
+  "11": {
+   "summary": "ILLINI MBB VS. Penn State",
    "description": "",
-   "end": "2026-12-14T17:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-12-14T14:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. North Texas",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvspennstate-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-12-12T13:00:00-06:00",
+   "end": "2026-12-12T16:00:00-06:00"
   },
-  "30": {
+  "12": {
+   "summary": "ILLINI WBB VS. Evansville",
    "description": "",
-   "end": "2026-12-19T21:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-12-19T18:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Jackson State",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvsevansville",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-12-13T14:00:00-06:00",
+   "end": "2026-12-13T17:00:00-06:00"
   },
-  "31": {
+  "13": {
+   "summary": "ILLINI WBB VS. Western Illinois",
    "description": "",
-   "end": "2026-12-29T17:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2026-12-29T14:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Southern",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvswiu",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-12-18T18:00:00-06:00",
+   "end": "2026-12-18T21:00:00-06:00"
   },
-  "32": {
+  "14": {
+   "summary": "ILLINI WBB VS. Wright State",
    "description": "",
-   "end": "2027-01-01T18:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-01-01T15:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Maryland",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvswsu",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-12-20T14:00:00-06:00",
+   "end": "2026-12-20T17:00:00-06:00"
   },
-  "33": {
+  "15": {
+   "summary": "ILLINI WBB VS. Old Dominion",
    "description": "",
-   "end": "2027-01-07T21:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-01-07T18:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Ohio State",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvsod",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-12-22T11:00:00-06:00",
+   "end": "2026-12-22T14:00:00-06:00"
   },
-  "34": {
+  "16": {
+   "summary": "ILLINI WBB VS. Iowa",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvsiowa-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-12-29T12:00:00-06:00",
+   "end": "2026-12-29T15:00:00-06:00"
+  },
+  "17": {
+   "summary": "ILLINI MBB VS. Seattle",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvsseattle",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2026-12-29T18:00:00-06:00",
+   "end": "2026-12-29T21:00:00-06:00"
+  },
+  "18": {
+   "summary": "ILLINI MBB VS. Purdue",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvspurdue-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-01-05T20:00:00-06:00",
+   "end": "2027-01-05T23:00:00-06:00"
+  },
+  "19": {
+   "summary": "ILLINI WBB VS. Washington",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvswash",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-01-07T20:00:00-06:00",
+   "end": "2027-01-07T23:00:00-06:00"
+  },
+  "20": {
    "summary": "HARLEM GLOBETROTTERS: RIVALRY TOUR",
    "description": "HARLEM GLOBETROTTERS: RIVALRY TOUR\u00a0 Have the Harlem Globetrotters finally met their match? The Washington Generals and a new lineup of rivals step onto the court - hungry for a win, and out to prove it! This year, new challenges enter the game too. The Harlem Globetrotters - the team that invented basketball culture - bring the Rivalry Tour to your city as part of their all-new 2027 world tour, with a roster of stars who turn every possession into showtime, quarter after quarter. This is a whole new experience - you're not just watching, you're part of it. You help decide. Get pulled onto the court. Join the squad. Own the jumbotron. Because anything can happen at a Globetrotters game. A free, all-new pre-game tip-off party kicks off the moment doors open, packed with new surprises for longtime fans and first-time families. This is Globetrotters joy - electric, and built for YOU! New rivals. New challenges. An all-new show. The rivalry is theirs. The thrill is yours. Get your tickets now.",
    "htmlLink": "https://www.statefarmcenter.com/events/detail/globetrotters27",
    "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
    "tag": "Entertainment",
+   "venue": "State Farm Center",
    "start": "2027-01-08T19:00:00-06:00",
    "end": "2027-01-08T22:00:00-06:00"
   },
-  "35": {
+  "21": {
+   "summary": "ILLINI MBB VS. Ohio State",
    "description": "",
-   "end": "2027-01-08T22:30:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-01-08T19:30:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Rutgers",
-   "tag": "Athletics"
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvsohiostate-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-01-09T15:00:00-06:00",
+   "end": "2027-01-09T18:00:00-06:00"
+  },
+  "22": {
+   "summary": "ILLINI WBB VS. Purdue",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvspurdue-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-01-10T13:30:00-06:00",
+   "end": "2027-01-10T16:30:00-06:00"
+  },
+  "23": {
+   "summary": "ILLINI WBB VS. Michigan State",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvsmichstate",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-01-17T14:00:00-06:00",
+   "end": "2027-01-17T17:00:00-06:00"
+  },
+  "24": {
+   "summary": "ILLINI MBB VS. Nebraska",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvsnebraska-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-01-19T20:00:00-06:00",
+   "end": "2027-01-19T23:00:00-06:00"
+  },
+  "25": {
+   "summary": "ILLINI WBB VS. Michigan",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvsmich",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-01-20T19:00:00-06:00",
+   "end": "2027-01-20T22:00:00-06:00"
+  },
+  "26": {
+   "summary": "ILLINI WBB VS. Nebraska",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvsnebraska-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-01-26T18:00:00-06:00",
+   "end": "2027-01-26T21:00:00-06:00"
+  },
+  "27": {
+   "summary": "ILLINI MBB VS. USC",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvsusc-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-01-27T20:00:00-06:00",
+   "end": "2027-01-27T23:00:00-06:00"
+  },
+  "28": {
+   "summary": "ILLINI MBB VS. UCLA",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvsucla-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-02-02T20:00:00-06:00",
+   "end": "2027-02-02T23:00:00-06:00"
+  },
+  "29": {
+   "summary": "ILLINI MBB VS. Michigan State",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvsmichiganstate-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-02-05T19:00:00-06:00",
+   "end": "2027-02-05T22:00:00-06:00"
+  },
+  "30": {
+   "summary": "ILLINI WBB VS. Northwestern",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvsnorthwestern-2",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-02-07T15:00:00-06:00",
+   "end": "2027-02-07T18:00:00-06:00"
+  },
+  "31": {
+   "summary": "ILLINI WBB VS. Oregon",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvsoregon-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-02-13T14:00:00-06:00",
+   "end": "2027-02-13T17:00:00-06:00"
+  },
+  "32": {
+   "summary": "ILLINI MBB VS. Northwestern",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvsnorthwestern-2",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-02-16T20:00:00-06:00",
+   "end": "2027-02-16T23:00:00-06:00"
+  },
+  "33": {
+   "summary": "ILLINI WBB VS. Penn State",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvspennstate-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-02-25T19:30:00-06:00",
+   "end": "2027-02-25T22:30:00-06:00"
+  },
+  "34": {
+   "summary": "ILLINI MBB VS. Wisconsin",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvswisconsin-2",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-02-28T00:30:00-06:00",
+   "end": "2027-02-28T03:30:00-06:00"
+  },
+  "35": {
+   "summary": "ILLINI MBB VS. Iowa",
+   "description": "",
+   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvsiowa-1",
+   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "tag": "Athletics",
+   "start": "2027-03-06T07:00:00-06:00",
+   "end": "2027-03-06T10:00:00-06:00"
   },
   "36": {
-   "description": "",
-   "end": "2027-01-17T14:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-01-17T11:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Minnesota",
-   "tag": "Athletics"
-  },
-  "37": {
-   "description": "",
-   "end": "2027-01-18T17:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-01-18T14:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Northwestern",
-   "tag": "Athletics"
-  },
-  "38": {
-   "description": "",
-   "end": "2027-01-21T21:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-01-21T18:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Maryland",
-   "tag": "Athletics"
-  },
-  "39": {
-   "description": "",
-   "end": "2027-01-28T21:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-01-28T18:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. UCLA",
-   "tag": "Athletics"
-  },
-  "40": {
-   "description": "",
-   "end": "2027-01-29T23:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-01-29T20:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Washington",
-   "tag": "Athletics"
-  },
-  "41": {
-   "description": "",
-   "end": "2027-02-04T23:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-02-04T20:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Northwestern",
-   "tag": "Athletics"
-  },
-  "42": {
-   "description": "",
-   "end": "2027-02-08T15:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-02-08T12:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. USC",
-   "tag": "Athletics"
-  },
-  "43": {
-   "description": "",
-   "end": "2027-02-10T22:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-02-10T19:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Wisconsin",
-   "tag": "Athletics"
-  },
-  "44": {
-   "description": "",
-   "end": "2027-02-11T21:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-02-11T18:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Wisconsin",
-   "tag": "Athletics"
-  },
-  "45": {
-   "description": "",
-   "end": "2027-02-15T15:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-02-15T12:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Indiana",
-   "tag": "Athletics"
-  },
-  "46": {
-   "description": "",
-   "end": "2027-02-17T21:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-02-17T18:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Rutgers",
-   "tag": "Athletics"
-  },
-  "47": {
-   "description": "",
-   "end": "2027-02-27T22:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-02-27T19:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Michigan",
-   "tag": "Athletics"
-  },
-  "48": {
-   "description": "",
-   "end": "2027-03-01T16:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/womens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-03-01T13:00:00-06:00",
-   "summary": "Women's Basketball Game: Illinois VS. Minnesota",
-   "tag": "Athletics"
-  },
-  "49": {
-   "description": "",
-   "end": "2027-03-03T23:00:00-06:00",
-   "htmlLink": "https://fightingillini.com/sports/mens-basketball/schedule",
-   "location": "State Farm Center, Champaign, Ill.",
-   "start": "2027-03-03T20:00:00-06:00",
-   "summary": "Men's Basketball Game: Illinois VS. Oregon",
-   "tag": "Athletics"
-  },
-  "50": {
    "summary": "The Book of Mormon",
    "description": "The New York Times calls it \u201cthe best musical of this century.\u201d The Washington Post says, \u201cIt is the kind of evening that restores your faith in musicals.\u201d And Entertainment Weekly says, \u201cGrade A: the funniest musical of all time.\u201d Jimmy Fallon of The Tonight Show calls it \"Genius. Brilliant. Phenomenal.\" It\u2019s THE BOOK OF MORMON, the nine-time Tony Award\u00ae winning Best Musical. This outrageous musical comedy follows the adventures of a mismatched pair of missionaries, sent halfway across the world to spread the Good Word. With standing room only productions in London, on Broadway, and across North America, THE BOOK OF MORMON has truly become an international sensation. Contains explicit language. For more information, visit TheBookOfMormonTour.com.",
    "htmlLink": "https://www.statefarmcenter.com/events/detail/the-book-of-mormon",
    "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
    "tag": "Entertainment",
+   "venue": "State Farm Center",
    "start": "2027-05-06T19:30:00-05:00",
    "end": "2027-05-06T22:30:00-05:00"
   },
-  "51": {
+  "37": {
    "summary": "Shucked",
    "description": "Maizy and Beau are getting hitched, when the corn that protects their small community starts to die. The town needs answers. But who will dare to venture beyond the borders of Cob County? \u00a0 Including the knockout songs \u2018Woman of the World\u2019, \u2018Somebody Will\u2019 and \u2018Independently Owned\u2019, this Broadway hit about an unlikely hero, an unscrupulous con artist, and a battle for the heart and soil of a small town, is not to be missed.",
    "htmlLink": "https://www.statefarmcenter.com/events/detail/shucked",
    "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
    "tag": "Entertainment",
+   "venue": "State Farm Center",
    "start": "2027-05-10T19:30:00-05:00",
    "end": "2027-05-10T22:30:00-05:00"
   },
-  "52": {
-   "summary": "ILLINI MBB VS. Baylor",
-   "description": "",
-   "htmlLink": "https://www.statefarmcenter.com/events/detail/mbbvsbaylor",
-   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+  "38": {
+   "summary": "Sunday Salon: Maxwell Schultz, cello & Ana Huerta, piano",
+   "description": "Krannert Center is proud to welcome the 2nd\u00a0and 3rd-place winners of our 2026 Debut Artists Competition, cellist Maxwell Schultz and pianist Ana Huerta, to our Sunday Salon series this Sunday, November 1, featuring a program of Schumann and Brahms. Second-place winner Maxwell Schultz is an emerging cellist from the Chicago area. A former member of the Chicago Youth Symphony Orchestra, Schultz holds a master\u2019s in performance from the University of Illinois where he is currently pursuing his Artist Diploma under the instruction of Jupiter String Quartet cellist, Daniel McDonough. He has performed as a featured soloist at festivals such as Domaine Forget de Charlevoix and Orford Musique and was a 2026 Young Artist at the prestigious Kneisel Hall Chamber Music School and Festival. Schultz will be accompanied by South Korean pianist Chanmi Lee, who is pursuing a Doctor of Musical Arts in Piano Performance and Literature at the University of Illinois Urbana-Champaign, studying with Professor Timothy Ehlen. An accomplished soloist and collaborative musician, she has performed as a chamber musician and accompanist with the university\u2019s Black Chorus. Third-place winner Ana Huerta is a Spanish pianist, collaborative artist, and scholar dedicated to creating musical experiences that foster connection, curiosity, and engagement. An award-winning soloist and active chamber musician, Huerta is co-founder of the saxophone-piano ensembles D\u00fao \u00cdndice and Atlantic Duo, that have recently joined forces as the newly formed Triskelion Trio. She is currently pursuing a Doctor of Musical Arts in Piano Performance and Literature with a cognate in Instrumental Conducting at the University of Illinois Urbana-Champaign, studying under Dr. Chi-Chen Wu and serving as a Graduate Teaching Assistant in Collaborative Piano. Program: Robert Schumann (1810-1856) Sonata No. 1 in F-sharp minor, Op. 11 Ana Huerta, piano (approx. 33-minutes) Intermission Johannes Brahms (1833-1897) Sonata in D Major for Cello and Piano, Op. 78 Maxwell Schultz, cello Chanmi Lee, piano (approx. 30 minutes)",
+   "htmlLink": "https://krannertcenter.com/events/sunday-salon-maxwell-schultz-cello-ana-huerta-piano",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
    "tag": "Entertainment",
-   "start": "",
-   "end": ""
+   "venue": "Krannert Center",
+   "start": "2026-11-01T15:00:00-06:00",
+   "end": "2026-11-01T17:00:00-06:00"
+  },
+  "39": {
+   "summary": "Krannert Center Uncorked: Prairie Sharks",
+   "description": "Dive into an evening of music at Krannert Center Uncorked with the Prairie Sharks, Urbana's only shark-themed musical entertainers! This four-piece brings surf-inspired guitar, R&B grooves, vintage rock 'n' roll, boogie-woogie, original songs, inflatable sharks, and good-natured banter to our lobby. Part of our free Krannert Center Uncorked series celebrating local bands, Prairie Sharks deliver a lively, nostalgic sound with a distinctly modern sense of fun. Come discover this one-of-a-kind local jamboree. Enjoy a beverage from our Stage 5 Bar and connect with friends old and new while enjoying the Prairie Sharks Thursday, November 5! All Krannert Center Uncorked performances are free from 5:30-7pm at Stage 5 in the Krannert Center lobby.",
+   "htmlLink": "https://krannertcenter.com/events/krannert-center-uncorked-prairie-sharks",
+   "location": "Krannert Center - Stage 5, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-05T17:30:00-06:00",
+   "end": "2026-11-05T19:30:00-06:00"
+  },
+  "40": {
+   "summary": "Illinois Theatre: Fairview",
+   "description": "Fairview is a searing examination of families, drama, family dramas, and the insidiousness of white supremacy. Winner of the 2019 Pulitzer Prize for Drama, Jackie Sibblies Drury\u2019s groundbreaking, experimental masterpiece leaves a searing imprint. Fairview is presented by arrangement with Concord Theatricals on behalf of Dramatists Play Service.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-fairview",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-05T19:30:00-06:00",
+   "end": "2026-11-05T21:30:00-06:00"
+  },
+  "41": {
+   "summary": "Illinois Theatre: Fairview",
+   "description": "Fairview is a searing examination of families, drama, family dramas, and the insidiousness of white supremacy. Winner of the 2019 Pulitzer Prize for Drama, Jackie Sibblies Drury\u2019s groundbreaking, experimental masterpiece leaves a searing imprint. Fairview is presented by arrangement with Concord Theatricals on behalf of Dramatists Play Service.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-fairview",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-06T19:30:00-06:00",
+   "end": "2026-11-06T21:30:00-06:00"
+  },
+  "42": {
+   "summary": "Illinois Theatre: Fairview",
+   "description": "Fairview is a searing examination of families, drama, family dramas, and the insidiousness of white supremacy. Winner of the 2019 Pulitzer Prize for Drama, Jackie Sibblies Drury\u2019s groundbreaking, experimental masterpiece leaves a searing imprint. Fairview is presented by arrangement with Concord Theatricals on behalf of Dramatists Play Service.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-fairview",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-07T19:30:00-06:00",
+   "end": "2026-11-07T21:30:00-06:00"
+  },
+  "43": {
+   "summary": "Illinois Theatre: Fairview",
+   "description": "Fairview is a searing examination of families, drama, family dramas, and the insidiousness of white supremacy. Winner of the 2019 Pulitzer Prize for Drama, Jackie Sibblies Drury\u2019s groundbreaking, experimental masterpiece leaves a searing imprint. Fairview is presented by arrangement with Concord Theatricals on behalf of Dramatists Play Service.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-fairview",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-11T19:30:00-06:00",
+   "end": "2026-11-11T21:30:00-06:00"
+  },
+  "44": {
+   "summary": "Illinois Theatre: Fairview",
+   "description": "Fairview is a searing examination of families, drama, family dramas, and the insidiousness of white supremacy. Winner of the 2019 Pulitzer Prize for Drama, Jackie Sibblies Drury\u2019s groundbreaking, experimental masterpiece leaves a searing imprint. Fairview is presented by arrangement with Concord Theatricals on behalf of Dramatists Play Service.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-fairview",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-12T19:30:00-06:00",
+   "end": "2026-11-12T21:30:00-06:00"
+  },
+  "45": {
+   "summary": "Illinois Theatre: Fairview",
+   "description": "Fairview is a searing examination of families, drama, family dramas, and the insidiousness of white supremacy. Winner of the 2019 Pulitzer Prize for Drama, Jackie Sibblies Drury\u2019s groundbreaking, experimental masterpiece leaves a searing imprint. Fairview is presented by arrangement with Concord Theatricals on behalf of Dramatists Play Service.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-fairview",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-13T19:30:00-06:00",
+   "end": "2026-11-13T21:30:00-06:00"
+  },
+  "46": {
+   "summary": "Illinois Theatre: Fairview",
+   "description": "Fairview is a searing examination of families, drama, family dramas, and the insidiousness of white supremacy. Winner of the 2019 Pulitzer Prize for Drama, Jackie Sibblies Drury\u2019s groundbreaking, experimental masterpiece leaves a searing imprint. Fairview is presented by arrangement with Concord Theatricals on behalf of Dramatists Play Service.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-fairview",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-14T14:00:00-06:00",
+   "end": "2026-11-14T16:00:00-06:00"
+  },
+  "47": {
+   "summary": "Dance for People with Parkinson's",
+   "description": "Experience the fellowship of communal dance with\u00a0professionally trained dance instructors Laura Chiaramonte (Dance at Illinois) and Kate Insolia. If you or a loved one is living with Parkinson\u2019s, join us to explore gentle movement in a safe and welcoming environment. No dance experience is needed! Set to uplifting, familiar music, provided by accompanist Beverly Hillmer, this class lasts approximately 70 minutes and may assist with the preservation and improvement of balance, flexibility, and strength. Please dress comfortably for this full-body workshop. If you have questions, please email krannertcenter [at] illinois.edu or phone 217.244.3963. PARKING \u25aa Garage entrances are on Illinois Street (the north side of the Center) and Oregon Street (the south side of the Center). \u25aa Although parking in the Krannert Center garages is free after 5pm on weekdays and all day on weekends, participants in this weekday class must park at a meter. \u25aa A limited number of metered spaces are located in both of the north garages (orange and yellow), entered from Illinois Street. \u25aa Additional metered spaces are on each street surrounding the Center. \u25aa Spaces marked with the accessibility sign can be found in each of the underground garages. Spaces with meters require payment even if accessible plates or hangtags are displayed. \u25aa All other spaces in the underground garages are reserved on weekdays for permit holders. University of Illinois Parking patrols the lot regularly and will ticket anyone who is parked in a non-metered space without a paid lot permit. Presented in partnership with Dance at Illinois. This workshop was developed by the Mark Morris Dance Group, the Unity Parkinson\u2019s Disease Support Group, Carle Clinic, Dance at Illinois, and Krannert Center.",
+   "htmlLink": "https://krannertcenter.com/events/dance-people-parkinsons-109",
+   "location": "Krannert Center - Drama Rehearsal Room (DRR), 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-06T10:00:00-06:00",
+   "end": "2026-11-06T12:00:00-06:00"
+  },
+  "48": {
+   "summary": "Illinois Theatre: Sense and Sensibility",
+   "description": "When their wealthy half-brother cheats them of their fortune, Elinor and Marianne Dashwood are left penniless. They are forced to leave the comforts of Norland Park and relocate to chilly Barton Cottage in Devonshire, but when John Willoughby, a handsome stranger, arrives one day with a rain-drenched Marianne in his arms, the sisters are convinced that their fortunes are changed forever. SENSE AND SENSIBILITY (SWALE) is presented by arrangement with Concord Theatricals on behalf of Samuel French, Inc.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-sense-and-sensibility",
+   "location": "Krannert Center - Colwell Playhouse, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-06T19:30:00-06:00",
+   "end": "2026-11-06T21:30:00-06:00"
+  },
+  "49": {
+   "summary": "Illinois Theatre: Sense and Sensibility",
+   "description": "When their wealthy half-brother cheats them of their fortune, Elinor and Marianne Dashwood are left penniless. They are forced to leave the comforts of Norland Park and relocate to chilly Barton Cottage in Devonshire, but when John Willoughby, a handsome stranger, arrives one day with a rain-drenched Marianne in his arms, the sisters are convinced that their fortunes are changed forever. SENSE AND SENSIBILITY (SWALE) is presented by arrangement with Concord Theatricals on behalf of Samuel French, Inc.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-sense-and-sensibility",
+   "location": "Krannert Center - Colwell Playhouse, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-07T19:30:00-06:00",
+   "end": "2026-11-07T21:30:00-06:00"
+  },
+  "50": {
+   "summary": "Illinois Theatre: Sense and Sensibility",
+   "description": "When their wealthy half-brother cheats them of their fortune, Elinor and Marianne Dashwood are left penniless. They are forced to leave the comforts of Norland Park and relocate to chilly Barton Cottage in Devonshire, but when John Willoughby, a handsome stranger, arrives one day with a rain-drenched Marianne in his arms, the sisters are convinced that their fortunes are changed forever. SENSE AND SENSIBILITY (SWALE) is presented by arrangement with Concord Theatricals on behalf of Samuel French, Inc.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-sense-and-sensibility",
+   "location": "Krannert Center - Colwell Playhouse, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-11T19:30:00-06:00",
+   "end": "2026-11-11T21:30:00-06:00"
+  },
+  "51": {
+   "summary": "Illinois Theatre: Sense and Sensibility",
+   "description": "When their wealthy half-brother cheats them of their fortune, Elinor and Marianne Dashwood are left penniless. They are forced to leave the comforts of Norland Park and relocate to chilly Barton Cottage in Devonshire, but when John Willoughby, a handsome stranger, arrives one day with a rain-drenched Marianne in his arms, the sisters are convinced that their fortunes are changed forever. SENSE AND SENSIBILITY (SWALE) is presented by arrangement with Concord Theatricals on behalf of Samuel French, Inc.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-sense-and-sensibility",
+   "location": "Krannert Center - Colwell Playhouse, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-12T19:30:00-06:00",
+   "end": "2026-11-12T21:30:00-06:00"
+  },
+  "52": {
+   "summary": "Illinois Theatre: Sense and Sensibility",
+   "description": "When their wealthy half-brother cheats them of their fortune, Elinor and Marianne Dashwood are left penniless. They are forced to leave the comforts of Norland Park and relocate to chilly Barton Cottage in Devonshire, but when John Willoughby, a handsome stranger, arrives one day with a rain-drenched Marianne in his arms, the sisters are convinced that their fortunes are changed forever. SENSE AND SENSIBILITY (SWALE) is presented by arrangement with Concord Theatricals on behalf of Samuel French, Inc.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-sense-and-sensibility",
+   "location": "Krannert Center - Colwell Playhouse, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-13T19:30:00-06:00",
+   "end": "2026-11-13T21:30:00-06:00"
   },
   "53": {
-   "summary": "ILLINI WBB VS. UIS",
-   "description": "",
-   "htmlLink": "https://www.statefarmcenter.com/events/detail/wbbvsuis",
-   "location": "State Farm Center 1800 S 1st St, Champaign, IL 61820",
+   "summary": "Illinois Theatre: Sense and Sensibility",
+   "description": "When their wealthy half-brother cheats them of their fortune, Elinor and Marianne Dashwood are left penniless. They are forced to leave the comforts of Norland Park and relocate to chilly Barton Cottage in Devonshire, but when John Willoughby, a handsome stranger, arrives one day with a rain-drenched Marianne in his arms, the sisters are convinced that their fortunes are changed forever. SENSE AND SENSIBILITY (SWALE) is presented by arrangement with Concord Theatricals on behalf of Samuel French, Inc.",
+   "htmlLink": "https://krannertcenter.com/events/illinois-theatre-sense-and-sensibility",
+   "location": "Krannert Center - Colwell Playhouse, 500 S Goodwin Ave, Urbana, IL 61801",
    "tag": "Entertainment",
-   "start": "",
-   "end": ""
+   "venue": "Krannert Center",
+   "start": "2026-11-14T14:00:00-06:00",
+   "end": "2026-11-14T16:00:00-06:00"
+  },
+  "54": {
+   "summary": "Varsity Men's Glee Club - Dad's Day Concert",
+   "description": "Event information coming soon!",
+   "htmlLink": "https://krannertcenter.com/events/varsity-mens-glee-club-dads-day-concert-0",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-07T19:30:00-06:00",
+   "end": "2026-11-07T21:30:00-06:00"
+  },
+  "55": {
+   "summary": "Lyric Theatre @ Illinois: Singin' in the Rain",
+   "description": "The \"Greatest Movie Musical of All Time\" is faithfully and lovingly adapted by Broadway legends Betty Comden and Adolph Green, from their original award-winning screenplay in Singin' in the Rain . Each unforgettable scene, song, and dance is accounted for, including the show-stopping title number, complete with an onstage rainstorm! Hilarious situations, snappy dialogue\u202fand a hit-parade score of Hollywood standards make Singin' in the Rain the perfect entertainment for any fan of the golden age of movie musicals.",
+   "htmlLink": "https://krannertcenter.com/events/lyric-theatre-illinois-singin-rain",
+   "location": "Krannert Center - Tryon Festival Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-09T19:30:00-06:00",
+   "end": "2026-11-09T21:30:00-06:00"
+  },
+  "56": {
+   "summary": "Lyric Theatre @ Illinois: Singin' in the Rain",
+   "description": "The \"Greatest Movie Musical of All Time\" is faithfully and lovingly adapted by Broadway legends Betty Comden and Adolph Green, from their original award-winning screenplay in Singin' in the Rain . Each unforgettable scene, song, and dance is accounted for, including the show-stopping title number, complete with an onstage rainstorm! Hilarious situations, snappy dialogue\u202fand a hit-parade score of Hollywood standards make Singin' in the Rain the perfect entertainment for any fan of the golden age of movie musicals.",
+   "htmlLink": "https://krannertcenter.com/events/lyric-theatre-illinois-singin-rain",
+   "location": "Krannert Center - Tryon Festival Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-10T19:30:00-06:00",
+   "end": "2026-11-10T21:30:00-06:00"
+  },
+  "57": {
+   "summary": "Lyric Theatre @ Illinois: Singin' in the Rain",
+   "description": "The \"Greatest Movie Musical of All Time\" is faithfully and lovingly adapted by Broadway legends Betty Comden and Adolph Green, from their original award-winning screenplay in Singin' in the Rain . Each unforgettable scene, song, and dance is accounted for, including the show-stopping title number, complete with an onstage rainstorm! Hilarious situations, snappy dialogue\u202fand a hit-parade score of Hollywood standards make Singin' in the Rain the perfect entertainment for any fan of the golden age of movie musicals.",
+   "htmlLink": "https://krannertcenter.com/events/lyric-theatre-illinois-singin-rain",
+   "location": "Krannert Center - Tryon Festival Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-12T19:30:00-06:00",
+   "end": "2026-11-12T21:30:00-06:00"
+  },
+  "58": {
+   "summary": "Lyric Theatre @ Illinois: Singin' in the Rain",
+   "description": "The \"Greatest Movie Musical of All Time\" is faithfully and lovingly adapted by Broadway legends Betty Comden and Adolph Green, from their original award-winning screenplay in Singin' in the Rain . Each unforgettable scene, song, and dance is accounted for, including the show-stopping title number, complete with an onstage rainstorm! Hilarious situations, snappy dialogue\u202fand a hit-parade score of Hollywood standards make Singin' in the Rain the perfect entertainment for any fan of the golden age of movie musicals.",
+   "htmlLink": "https://krannertcenter.com/events/lyric-theatre-illinois-singin-rain",
+   "location": "Krannert Center - Tryon Festival Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-13T19:30:00-06:00",
+   "end": "2026-11-13T21:30:00-06:00"
+  },
+  "59": {
+   "summary": "Lyric Theatre @ Illinois: Singin' in the Rain",
+   "description": "The \"Greatest Movie Musical of All Time\" is faithfully and lovingly adapted by Broadway legends Betty Comden and Adolph Green, from their original award-winning screenplay in Singin' in the Rain . Each unforgettable scene, song, and dance is accounted for, including the show-stopping title number, complete with an onstage rainstorm! Hilarious situations, snappy dialogue\u202fand a hit-parade score of Hollywood standards make Singin' in the Rain the perfect entertainment for any fan of the golden age of movie musicals.",
+   "htmlLink": "https://krannertcenter.com/events/lyric-theatre-illinois-singin-rain",
+   "location": "Krannert Center - Tryon Festival Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-14T14:00:00-06:00",
+   "end": "2026-11-14T16:00:00-06:00"
+  },
+  "60": {
+   "summary": "ECHOES Across the Atlantic | APOLLO'S FIRE",
+   "description": "Apollo\u2019s Fire conductor and harpsichordist Jeannette Sorrell, praised as \"a master musical storyteller\" (Seen & Heard International, UK) and known for her compelling explorations of multicultural influences in early music, creates timely programs that ask us to ponder our shared history. As the Grammy-winning baroque\u202fensemble\u202freturns to Krannert Center, legendary Trinidadian soprano Jeanine De Bique joins them to explore the historical connections between Europe and the Caribbean colonies in the 18th\u202fcentury. Across the waters, tales of love, despair, and resilience emerge from the palaces of Europe and the plantations of the Caribbean\u2014with surprising resonance for today. The virtuoso music of Handel, Purcell, Rameau, and Vivaldi meets the soulful voices of Caribbean poets in this celebration of our shared humanity.",
+   "htmlLink": "https://krannertcenter.com/events/echoes-across-atlantic-apollos-fire",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-10T19:30:00-06:00",
+   "end": "2026-11-10T21:30:00-06:00"
+  },
+  "61": {
+   "summary": "Hindsley Symphonic Band and Wind Orchestra",
+   "description": "Program Wind Orchestra Paul Creston: Celebration Overture Percy Grainger: Children's March Erika Svanoe: Adventures in Wonderland Henry Fillmore: Circus Bee Hindsley Symphonic Band Edward Gregson: Festivo Carl Maria von Weber: Andante and Hungarian Rondo Ben Roidl-Ward, bassoon Martin Ellerby: Paris Sketches",
+   "htmlLink": "https://krannertcenter.com/events/hindsley-symphonic-band-and-wind-orchestra-7",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-11T19:30:00-06:00",
+   "end": "2026-11-11T21:30:00-06:00"
+  },
+  "62": {
+   "summary": "Aga Khan Master Musicians with Vincent Peirani, accordion",
+   "description": "Join the Aga Khan Master Musicians for an extraordinary evening of musical innovation and cultural dialogue. Brought together by the Aga Khan Music Programme, this acclaimed ensemble unites elite performers and composer-arrangers whose artistry is rooted in the traditions of the Middle East, Mediterranean Basin, Central Asia, and China. Blending canonical forms with contemporary expression, the Master Musicians create a vibrant, original sound that honors heritage while embracing new creative possibilities. Featuring virtuoso accordion player Vincent Peirani, the ensemble is completed with distinguished artists Wu Man on pipa (a four-stringed Chinese lute), Basel Rajoub on saxophone, Feras Charestan on qanun (a Middle-Eastern zither), Abbos Kosimov on doira (Uzbek frame drum), and Yurdal Tokcan on oud in a program showcasing exceptional mastery and cross-cultural collaboration transcending boundaries and reimagining traditions. Due to unforeseen circumstances, cellist Vincent S\u00e9gal will not perform with the Aga Khan Master Musicians on the ensemble's November 2026 US Tour.",
+   "htmlLink": "https://krannertcenter.com/events/aga-khan-master-musicians-vincent-peirani-accordion",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-12T19:30:00-06:00",
+   "end": "2026-11-12T21:30:00-06:00"
+  },
+  "63": {
+   "summary": "University Band and Campus Band Concert",
+   "description": "Program University Band Steven Reineke: Celebration Fanfare William Grant Still, arr. Dane Teter: Summerland Johannes Brahms, trans. Barbara Buehlman: Blessed Are They Tom Davoren: Midwestern Suite Russel Alexander, arr. Glenn Bainum: The Southerner Campus Band James Curnow: Fanfare and Flourishes Brian Balmages: Summer Dances Bob Margolis: Color John Philip Sousa: Fairest of the Fair",
+   "htmlLink": "https://krannertcenter.com/events/university-band-and-campus-band-concert",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-13T19:30:00-06:00",
+   "end": "2026-11-13T21:30:00-06:00"
+  },
+  "64": {
+   "summary": "Women's Glee Club",
+   "description": "Event information coming soon!",
+   "htmlLink": "https://krannertcenter.com/events/womens-glee-club",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-14T19:30:00-06:00",
+   "end": "2026-11-14T21:30:00-06:00"
+  },
+  "65": {
+   "summary": "Rapha\u00ebl Feuill\u00e2tre: An ELLNORA Reverb Event",
+   "description": "Considered the new global face of classical guitar, Rapha\u00ebl Feuill\u00e2tre fascinates listeners with the depth of his interpretations, his dazzling technique, and the richness of his repertoire. Born in Djibouti and raised in Cholet, France, by immigrant parents, Feuill\u00e2tre began winning guitar competitions at age 18, graduated from the elite Paris Conservatoire, released his first recording at 23, and three years later signed a contract with Deutsche Grammophon, classical music\u2019s most prestigious label. In 2023, he became the second-most listened-to classical artist on Apple Classical. This charismatic French guitarist with the creative vision required to make works from all periods sound as if they were written yesterday\u2014alive, heartfelt, filled with color\u2014notes: \u201cMy goal is always to allow the guitar to sing.\u201d",
+   "htmlLink": "https://krannertcenter.com/events/rapha%C3%ABl-feuill%C3%A2tre-ellnora-reverb-event",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-17T19:30:00-06:00",
+   "end": "2026-11-17T21:30:00-06:00"
+  },
+  "66": {
+   "summary": "Artists Talk: Community Festivals",
+   "description": "Local curators and festival producers Seth Fein of Pygmalion, Elsie Hedgspeth of 40 North, Carrie Chandler of CU Folk and Roots Festival, and Janelle Orcherton of CU Jazz Festival come together to talk about the local arts scene, producing a festival and their process for identifying artists, and curating performances.",
+   "htmlLink": "https://krannertcenter.com/events/artists-talk-community-festivals",
+   "location": "Krannert Center - Stage 5, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-18T17:30:00-06:00",
+   "end": "2026-11-18T19:30:00-06:00"
+  },
+  "67": {
+   "summary": "University of Illinois Philharmonia Orchestra and Illini Strings",
+   "description": "Event information coming soon!",
+   "htmlLink": "https://krannertcenter.com/events/university-illinois-philharmonia-orchestra-and-illini-strings-3",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-18T19:30:00-06:00",
+   "end": "2026-11-18T21:30:00-06:00"
+  },
+  "68": {
+   "summary": "Krannert Center Uncorked: J'Lyn Hope",
+   "description": "Join us as we bring one of C-U's powerhouse voices to Krannert Center Uncorked on November 19! J'Lyn Hope is a multidisciplinary artist whose work explores the transformative power of imagination. Blending jazz, rock, soul, and improvisation, she creates dynamic musical experiences that blur the boundaries between sound, feeling, and discovery. Known for her expressive voice and magnetic energy, Hope uses her loop station to build intricate layers of music in real time, transforming her voice into rhythm, melody, harmony, and texture. She describes these creations as \"sound paintings\"\u2014where the color of her voice follows the brushstrokes of her creativity. Her work is rooted in the belief that art is a powerful tool that encourages us to reach beyond our notions of what is possible, tapping into the magic of what lies beyond. The love, light, and hope infused throughout her art awaken the dreamer in us all. Come see J'Lyn Hope November 19 at Stage 5 in the Krannert Center lobby. Enjoy a beverage from our Stage 5 bar and connect with friends old and new. All Krannert Center Uncorked performances are free on select Thursdays from 5:30-7pm.",
+   "htmlLink": "https://krannertcenter.com/events/krannert-center-uncorked-jlyn-hope",
+   "location": "Krannert Center - Stage 5, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-19T17:30:00-06:00",
+   "end": "2026-11-19T19:30:00-06:00"
+  },
+  "69": {
+   "summary": "University of Illinois Symphony Orchestra",
+   "description": "Conductor: Matthew Sheppard Soloist: Destina Sarussi Program Lowell Liebermann: Concerto for Flute and Orchestra, Op. 29 B\u00e9la Bart\u00f3k: Concerto for Orchestra",
+   "htmlLink": "https://krannertcenter.com/events/university-illinois-symphony-orchestra-17",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-11-19T19:30:00-06:00",
+   "end": "2026-11-19T21:30:00-06:00"
+  },
+  "70": {
+   "summary": "Jazz Week: University of Illinois Jazz Trombone Ensemble",
+   "description": "Program information coming soon! December 1st: University of Illinois Jazz Trombone Ensemble, Studio Theatre at 7:30pm Jazz week will also feature December 2nd: University of Illinois Bridgewater Combo, Studio Theatre at 7:30pm December 3rd: University of Illinois Spencer Combo, Studio Theatre at 7:30pm December 4th: University of Illinois Concert Jazz Band, Studio Theatre at 7:30pm December 5th: University of Illinois Yuan Combo, Studio Theatre at 3pm December 5th: University of Illinois Jazz Guitar Ensemble, Studio Theatre at 7:30pm December 6th: University of Illinois Jazz Ensemble, Studio Theatre at 3pm",
+   "htmlLink": "https://krannertcenter.com/events/jazz-week-university-illinois-jazz-trombone-ensemble",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-01T19:30:00-06:00",
+   "end": "2026-12-01T21:30:00-06:00"
+  },
+  "71": {
+   "summary": "Illinois Wind Symphony",
+   "description": "Program Reena Esmail: River of Stars J.S. Bach, arr. Reed: My Jesus, Oh What Anguish Gilda Lyons: Variations on a Medieval Tune Carlos Simon: Amen!",
+   "htmlLink": "https://krannertcenter.com/events/illinois-wind-symphony-33",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-02T19:30:00-06:00",
+   "end": "2026-12-02T21:30:00-06:00"
+  },
+  "72": {
+   "summary": "Jazz Week: University of Illinois Bridgewater Combo",
+   "description": "Program information coming soon! University of Illinois Bridgewater Combo",
+   "htmlLink": "https://krannertcenter.com/events/jazz-week-university-illinois-bridgewater-combo",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-02T19:30:00-06:00",
+   "end": "2026-12-02T21:30:00-06:00"
+  },
+  "73": {
+   "summary": "Krannert Center Uncorked: Kurt Reeder Trio, A Charlie Brown Christmas",
+   "description": "Join us as C-U's house keyboardist, Kurt Reeder, brings his trio to Krannert Center Uncorked for a special performance of pianist Vince Guaraldi's classic jazz recording \"A Charlie Brown Christmas\" on December 3. From Provo, Utah, Kurt came to the University of Illinois in 2018 to complete his Masters in Jazz Performance, fell in love with the community, and never left. Outside of his trio, he is part of several local ensembles, including The Kurt Reeder Organization, The Broadmoor Quartet, Allnighter, and others. He can be found performing at the Rose Bowl Tavern multiple nights a week. Joining Kurt as part of this acoustic jazz trio are two giants of the local music scene: veteran drummer extraordinaire Ian Shepherd (Ian Shepherd and Friends, 90s Daughter) and U of I alumni bassist and educator Dr. Emma Taylor (Emma Taylor Quartet, Simply This Quintet). Come enjoy a complete performance of this beloved jazz album, along with other select pieces from Guaraldi's catalog that fit the evening and the season. All Krannert Center Uncorked performances are free on select Thursdays from 5:30-7pm at Stage 5 in the Krannert Center lobby.",
+   "htmlLink": "https://krannertcenter.com/events/krannert-center-uncorked-kurt-reeder-trio-charlie-brown-christmas",
+   "location": "Krannert Center - Stage 5, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-03T17:30:00-06:00",
+   "end": "2026-12-03T19:30:00-06:00"
+  },
+  "74": {
+   "summary": "Jazz Week: University of Illinois Spencer Combo",
+   "description": "Program information coming soon! University of Illinois Spencer Combo",
+   "htmlLink": "https://krannertcenter.com/events/jazz-week-university-illinois-spencer-combo",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-03T19:30:00-06:00",
+   "end": "2026-12-03T21:30:00-06:00"
+  },
+  "75": {
+   "summary": "Dance for People with Parkinson's",
+   "description": "Experience the fellowship of communal dance with\u00a0professionally trained dance instructors Laura Chiaramonte (Dance at Illinois) and Kate Insolia. If you or a loved one is living with Parkinson\u2019s, join us to explore gentle movement in a safe and welcoming environment. No dance experience is needed! Set to uplifting, familiar music, provided by accompanist Beverly Hillmer, this class lasts approximately 70 minutes and may assist with the preservation and improvement of balance, flexibility, and strength. Please dress comfortably for this full-body workshop. If you have questions, please email krannertcenter [at] illinois.edu or phone 217.244.3963. PARKING \u25aa Garage entrances are on Illinois Street (the north side of the Center) and Oregon Street (the south side of the Center). \u25aa Although parking in the Krannert Center garages is free after 5pm on weekdays and all day on weekends, participants in this weekday class must park at a meter. \u25aa A limited number of metered spaces are located in both of the north garages (orange and yellow), entered from Illinois Street. \u25aa Additional metered spaces are on each street surrounding the Center. \u25aa Spaces marked with the accessibility sign can be found in each of the underground garages. Spaces with meters require payment even if accessible plates or hangtags are displayed. \u25aa All other spaces in the underground garages are reserved on weekdays for permit holders. University of Illinois Parking patrols the lot regularly and will ticket anyone who is parked in a non-metered space without a paid lot permit. Presented in partnership with Dance at Illinois. This workshop was developed by the Mark Morris Dance Group, the Unity Parkinson\u2019s Disease Support Group, Carle Clinic, Dance at Illinois, and Krannert Center.",
+   "htmlLink": "https://krannertcenter.com/events/dance-people-parkinsons-110",
+   "location": "Krannert Center - Drama Rehearsal Room (DRR), 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-04T10:00:00-06:00",
+   "end": "2026-12-04T12:00:00-06:00"
+  },
+  "76": {
+   "summary": "Jazz Week: University of Illinois Concert Jazz Band",
+   "description": "Program information coming soon! University of Illinois Concert Jazz Band",
+   "htmlLink": "https://krannertcenter.com/events/jazz-week-university-illinois-concert-jazz-band",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-04T19:30:00-06:00",
+   "end": "2026-12-04T21:30:00-06:00"
+  },
+  "77": {
+   "summary": "Sinfonia da Camera: Handel's Messiah",
+   "description": "Handel\u2019s Messiah remains one of the most enduring and beloved works in the choral repertoire, offering a profound synthesis of musical beauty and spiritual reflection. In collaboration with the University of Illinois Choirs under the direction of Andrea Solya, Sinfonia da Camera presents this monumental work with a distinguished roster of soloists: soprano Ollie Watts Davis, mezzo-soprano Thereza Lituma, tenor John Swedberg, and bass Ricardo Herrera. From the celebratory brilliance of the \u201cHallelujah\u201d chorus to the introspective lyricism of its arias, Messiah traverses a wide emotional and theological landscape. Its carefully crafted structure and expressive clarity exemplify Handel\u2019s dramatic genius. This performance invites audiences to engage with a work that continues to inspire through its balance of grandeur, intimacy, and a timeless holiday message.",
+   "htmlLink": "https://krannertcenter.com/events/sinfonia-da-camera-handels-messiah",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-04T19:30:00-06:00",
+   "end": "2026-12-04T21:30:00-06:00"
+  },
+  "78": {
+   "summary": "Jazz Week: University of Illinois Yuan Combo",
+   "description": "Program information coming soon! University of Illinois Yuan Combo",
+   "htmlLink": "https://krannertcenter.com/events/jazz-week-university-illinois-yuan-combo",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-05T15:00:00-06:00",
+   "end": "2026-12-05T17:00:00-06:00"
+  },
+  "79": {
+   "summary": "Jazz Week: University of Illinois Jazz Guitar Ensemble",
+   "description": "Program information coming soon! University of Illinois Jazz Guitar Ensemble",
+   "htmlLink": "https://krannertcenter.com/events/jazz-week-university-illinois-jazz-guitar-ensemble",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-05T19:30:00-06:00",
+   "end": "2026-12-05T21:30:00-06:00"
+  },
+  "80": {
+   "summary": "Jazz Week: University of Illinois Jazz Ensemble",
+   "description": "Program information coming soon! University of Illinois Jazz Ensemble",
+   "htmlLink": "https://krannertcenter.com/events/jazz-week-university-illinois-jazz-ensemble",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-06T15:00:00-06:00",
+   "end": "2026-12-06T17:00:00-06:00"
+  },
+  "81": {
+   "summary": "Carol Concert, University of Illinois Choirs",
+   "description": "Event information coming soon!",
+   "htmlLink": "https://krannertcenter.com/events/carol-concert-university-illinois-choirs",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-06T15:00:00-06:00",
+   "end": "2026-12-06T17:00:00-06:00"
+  },
+  "82": {
+   "summary": "Champaign-Urbana Symphony Orchestra: Holiday Magic",
+   "description": "The Champaign-Urbana Symphony Orchestra\u2019s popular holiday concert features seasonal favorites to please the whole family. The celebration begins with A Chanukah Overture by Robert Wendell and A Christmas Feast , a medley of five ancient carols arranged by Matthew Naughtin. Waldteuful\u2019s lively classic, The Skaters\u2019 Waltz , will brighten holiday spirits. Dazzling soprano Katelyn Lee performs Mozart\u2019s radiant motet Exsultate Jubilate and Adolphe Adams\u2019 beloved carol, \u201cO Holy Night.\u201d The magic continues as the talented singers of the Central Illinois Youth Chorus join the CUSO to perform Christmas Canon , the Trans-Siberian Orchestra\u2019s beautiful interpretation of Pachelbel\u2019s Canon in D . Naughtin\u2019s A Visit from St. Nicholas presents a charming orchestral setting for Clement C. Moore\u2019s well-known poem. Leroy Anderson\u2019s \u201cSleigh Ride,\u201d a visit from Santa, and a sing-along of holiday carols will make the season bright.",
+   "htmlLink": "https://krannertcenter.com/events/champaign-urbana-symphony-orchestra-holiday-magic",
+   "location": "Krannert Center - Foellinger Great Hall, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2026-12-09T19:30:00-06:00",
+   "end": "2026-12-09T21:30:00-06:00"
+  },
+  "83": {
+   "summary": "Step Afrika! presents The Fruits of Our Labor",
+   "description": "Celebrate the body as an instrument with Step Afrika!, the GUINNESS WORLD RECORDS\u2122 title holder for the Largest Stepping Dance and the world\u2019s leading authority on the art form of stepping. The company\u2019s newest work, The Fruits of Our Labor , blends the power of body percussion and contemporary dance with the vibrant energy of isipantsula (a rhythmic dance originating in South African townships) and the South African gumboot dance. Long-time Step Afrika! collaborator Jakari Sherman and South African choreographer Vusi Mdoyi lead an ensemble of virtuosic dancers whose bodies become instruments\u2014clapping, striking, and stepping in mesmerizing unison, merging rhythm and ritual, history and storytelling.",
+   "htmlLink": "https://krannertcenter.com/events/step-afrika-presents-fruits-our-labor",
+   "location": "Krannert Center - Tryon Festival Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2027-01-21T19:30:00-06:00",
+   "end": "2027-01-21T21:30:00-06:00"
+  },
+  "84": {
+   "summary": "The Neo-Futurists present The Infinite Wrench",
+   "description": "The Chicago-based Neo-Futurists have been writing and performing 30 plays in 60 minutes since 1988. Each play offers something different: be it funny, profound, elegant, disgusting, topical, irreverent, terrifying, or a song, all are original and truthful, tackling the here-and-now, and inspired by the lived experiences of the performers. \u201cThe ingenuity and engagement of the work not only remains but has deepened . . . the ensemble maps thorny social, psychological, and political terrain with foolishness and ferocity,\u201d says the Chicago Reader . With new plays every week, The Infinite Wrench is The Neo-Futurists\u2019 ongoing and ever-changing attempt to shift the conventions of live performance and speak to those unreached or unmoved by traditional theatre.",
+   "htmlLink": "https://krannertcenter.com/events/neo-futurists-present-infinite-wrench",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2027-01-21T19:30:00-06:00",
+   "end": "2027-01-21T21:30:00-06:00"
+  },
+  "85": {
+   "summary": "The Neo-Futurists present The Infinite Wrench",
+   "description": "The Chicago-based Neo-Futurists have been writing and performing 30 plays in 60 minutes since 1988. Each play offers something different: be it funny, profound, elegant, disgusting, topical, irreverent, terrifying, or a song, all are original and truthful, tackling the here-and-now, and inspired by the lived experiences of the performers. \u201cThe ingenuity and engagement of the work not only remains but has deepened . . . the ensemble maps thorny social, psychological, and political terrain with foolishness and ferocity,\u201d says the Chicago Reader . With new plays every week, The Infinite Wrench is The Neo-Futurists\u2019 ongoing and ever-changing attempt to shift the conventions of live performance and speak to those unreached or unmoved by traditional theatre.",
+   "htmlLink": "https://krannertcenter.com/events/neo-futurists-present-infinite-wrench",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2027-01-22T19:30:00-06:00",
+   "end": "2027-01-22T21:30:00-06:00"
+  },
+  "86": {
+   "summary": "The Neo-Futurists present The Infinite Wrench",
+   "description": "The Chicago-based Neo-Futurists have been writing and performing 30 plays in 60 minutes since 1988. Each play offers something different: be it funny, profound, elegant, disgusting, topical, irreverent, terrifying, or a song, all are original and truthful, tackling the here-and-now, and inspired by the lived experiences of the performers. \u201cThe ingenuity and engagement of the work not only remains but has deepened . . . the ensemble maps thorny social, psychological, and political terrain with foolishness and ferocity,\u201d says the Chicago Reader . With new plays every week, The Infinite Wrench is The Neo-Futurists\u2019 ongoing and ever-changing attempt to shift the conventions of live performance and speak to those unreached or unmoved by traditional theatre.",
+   "htmlLink": "https://krannertcenter.com/events/neo-futurists-present-infinite-wrench",
+   "location": "Krannert Center - Studio Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2027-01-23T19:30:00-06:00",
+   "end": "2027-01-23T21:30:00-06:00"
+  },
+  "87": {
+   "summary": "Mark Morris Dance Group and Music Ensemble: Music at Play",
+   "description": "With wit, exuberance, and an irresistible sense of play, the Mark Morris Dance Group brings together four works that showcase the humor, invention, and musical imagination of Mark Morris. Designed to delight audiences of all ages, this lively program combines brilliant dancing, vivid musicality, and theatrical surprise. In My Party , Morris transforms the familiar awkwardness and excitement of a youthful gathering into a tender and funny celebration of dancing together. The wonderfully offbeat Tamil Film Songs in Stereo Pas de Deux is pure cosmic invention propelled by the rhythms of South Indian popular music. Peccadillos , set to Erik Satie's miniature piano pieces originally written for children, finds humor and humanity in a whimsical solo filled with gesture, character, and imagination. And in Sport , Morris takes inspiration from Satie's playful Sports et divertissements , turning golf, swimming, tennis, and other athletic pursuits into a witty choreographic playground. Together, these four works offer an ideal evening of the Mark Morris Dance Group: sophisticated without being solemn, playful without ever losing artistry, and animated throughout by Morris' extraordinary ability to make music visible through dance. It is a program for longtime dance lovers, first-time audiences, children, parents, grandparents\u2014and anyone who enjoys the pleasure of watching remarkable dancers have some serious fun.",
+   "htmlLink": "https://krannertcenter.com/events/mark-morris-dance-group-and-music-ensemble-music-play",
+   "location": "Krannert Center - Tryon Festival Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2027-01-29T19:30:00-06:00",
+   "end": "2027-01-29T21:30:00-06:00"
+  },
+  "88": {
+   "summary": "Mark Morris Dance Group and Music Ensemble: Music at Play",
+   "description": "With wit, exuberance, and an irresistible sense of play, the Mark Morris Dance Group brings together four works that showcase the humor, invention, and musical imagination of Mark Morris. Designed to delight audiences of all ages, this lively program combines brilliant dancing, vivid musicality, and theatrical surprise. In My Party , Morris transforms the familiar awkwardness and excitement of a youthful gathering into a tender and funny celebration of dancing together. The wonderfully offbeat Tamil Film Songs in Stereo Pas de Deux is pure cosmic invention propelled by the rhythms of South Indian popular music. Peccadillos , set to Erik Satie's miniature piano pieces originally written for children, finds humor and humanity in a whimsical solo filled with gesture, character, and imagination. And in Sport , Morris takes inspiration from Satie's playful Sports et divertissements , turning golf, swimming, tennis, and other athletic pursuits into a witty choreographic playground. Together, these four works offer an ideal evening of the Mark Morris Dance Group: sophisticated without being solemn, playful without ever losing artistry, and animated throughout by Morris' extraordinary ability to make music visible through dance. It is a program for longtime dance lovers, first-time audiences, children, parents, grandparents\u2014and anyone who enjoys the pleasure of watching remarkable dancers have some serious fun.",
+   "htmlLink": "https://krannertcenter.com/events/mark-morris-dance-group-and-music-ensemble-music-play",
+   "location": "Krannert Center - Tryon Festival Theatre, 500 S Goodwin Ave, Urbana, IL 61801",
+   "tag": "Entertainment",
+   "venue": "Krannert Center",
+   "start": "2027-01-30T19:30:00-06:00",
+   "end": "2027-01-30T21:30:00-06:00"
+  },
+  "89": {
+   "summary": "DIARY OF A WIMPY KID, The Musical, presented by CPD Youth Theatre",
+   "description": "THU, NOV 5- SAT, NOV 7, 2026 Bring the season to a laughter-filled finale with the last production of the CPD\u2019s 2026 Youth Theatre season, Big Adventures, Bigger Dreams - the hilariously relatable Diary of a Wimpy Kid: The Musical!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1089",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-11-05T19:00:00-06:00",
+   "end": "2026-11-05T22:00:00-06:00"
+  },
+  "90": {
+   "summary": "DIARY OF A WIMPY KID, The Musical, presented by CPD Youth Theatre",
+   "description": "THU, NOV 5- SAT, NOV 7, 2026 Bring the season to a laughter-filled finale with the last production of the CPD\u2019s 2026 Youth Theatre season, Big Adventures, Bigger Dreams - the hilariously relatable Diary of a Wimpy Kid: The Musical!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1089",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-11-06T19:00:00-06:00",
+   "end": "2026-11-06T22:00:00-06:00"
+  },
+  "91": {
+   "summary": "DIARY OF A WIMPY KID, The Musical, presented by CPD Youth Theatre",
+   "description": "THU, NOV 5- SAT, NOV 7, 2026 Bring the season to a laughter-filled finale with the last production of the CPD\u2019s 2026 Youth Theatre season, Big Adventures, Bigger Dreams - the hilariously relatable Diary of a Wimpy Kid: The Musical!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1089",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-11-07T13:00:00-06:00",
+   "end": "2026-11-07T16:00:00-06:00"
+  },
+  "92": {
+   "summary": "DIARY OF A WIMPY KID, The Musical, presented by CPD Youth Theatre",
+   "description": "THU, NOV 5- SAT, NOV 7, 2026 Bring the season to a laughter-filled finale with the last production of the CPD\u2019s 2026 Youth Theatre season, Big Adventures, Bigger Dreams - the hilariously relatable Diary of a Wimpy Kid: The Musical!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1089",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-11-07T19:00:00-06:00",
+   "end": "2026-11-07T22:00:00-06:00"
+  },
+  "93": {
+   "summary": "CAMPUS NIGHTS TOUR",
+   "description": "THU, NOV 12, 2026 Known for creating unforgettable worship experiences, ELEVATION RHYTHM joins Campus Nights this fall for eight exclusive events designed to inspire a generation to follow Jesus.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1143",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-11-12T19:00:00-06:00",
+   "end": "2026-11-12T22:00:00-06:00"
+  },
+  "94": {
+   "summary": "LITTLE FEAT: THE LAST FAREWELL TOUR",
+   "description": "SUN, NOV 15, 2026 With tongue stuck somewhat in cheek, Little Feat announces The Last Farewell Tour!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1128",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-11-15T19:30:00-06:00",
+   "end": "2026-11-15T22:30:00-06:00"
+  },
+  "95": {
+   "summary": "HOLIDAY CARD PHOTO OP",
+   "description": "NOV 16, NOV 23, DEC 9, and DEC 11, 2026 5PM-7PM We\u2019re opening up the Virginia\u2019s beautifully decorated Mezzanine Lobby for photographs this holiday season, free of charge!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1158",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-11-16T17:00:00-06:00",
+   "end": "2026-11-16T19:00:00-06:00"
+  },
+  "96": {
+   "summary": "MEET SANTA AT THE VIRGINIA THEATRE 2026",
+   "description": "NOV 17, DEC 8, DEC 10, and DEC 21, 2026 5-7PM FREE! Santa Claus is coming to town! The Champaign Center Partnership and the Champaign Park District are excited to again welcome jolly old St. Nick to the Virginia Theatre.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1157",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-11-17T17:00:00-06:00",
+   "end": "2026-11-17T19:00:00-06:00"
+  },
+  "97": {
+   "summary": "THE MUPPET CHRISTMAS CAROL (1992)",
+   "description": "SAT, NOV 21, 2026 SPONSORED BY\u00a0MIX 94.5\u00a0& REWIND 92.5 Rated G 85\u00a0Min The Muppets perform the classic Dickens holiday tale, with Kermit the Frog playing Bob Cratchit, the put-upon clerk of stingy Ebenezer Scrooge.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1151",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-11-21T19:00:00-06:00",
+   "end": "2026-11-21T22:00:00-06:00"
+  },
+  "98": {
+   "summary": "HOLIDAY CARD PHOTO OP",
+   "description": "NOV 16, NOV 23, DEC 9, and DEC 11, 2026 5PM-7PM We\u2019re opening up the Virginia\u2019s beautifully decorated Mezzanine Lobby for photographs this holiday season, free of charge!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1158",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-11-23T17:00:00-06:00",
+   "end": "2026-11-23T19:00:00-06:00"
+  },
+  "99": {
+   "summary": "CU BALLET PRESENTS THE NUTCRACKER",
+   "description": "FRI, DEC 4\u00a0- SUN, DEC 6, 2026 Champaign Urbana Ballet presents\u00a0The Nutcracker,\u00a0Tchaikovsky's beloved holiday classic and a treasured Champaign-Urbana tradition.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1155",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-04T19:30:00-06:00",
+   "end": "2026-12-04T22:30:00-06:00"
+  },
+  "100": {
+   "summary": "CU BALLET PRESENTS THE NUTCRACKER",
+   "description": "FRI, DEC 4\u00a0- SUN, DEC 6, 2026 Champaign Urbana Ballet presents\u00a0The Nutcracker,\u00a0Tchaikovsky's beloved holiday classic and a treasured Champaign-Urbana tradition.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1155",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-05T14:00:00-06:00",
+   "end": "2026-12-05T16:59:00-06:00"
+  },
+  "101": {
+   "summary": "CU BALLET PRESENTS THE NUTCRACKER",
+   "description": "FRI, DEC 4\u00a0- SUN, DEC 6, 2026 Champaign Urbana Ballet presents\u00a0The Nutcracker,\u00a0Tchaikovsky's beloved holiday classic and a treasured Champaign-Urbana tradition.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1155",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-05T19:30:00-06:00",
+   "end": "2026-12-05T22:30:00-06:00"
+  },
+  "102": {
+   "summary": "CU BALLET PRESENTS THE NUTCRACKER",
+   "description": "FRI, DEC 4\u00a0- SUN, DEC 6, 2026 Champaign Urbana Ballet presents\u00a0The Nutcracker,\u00a0Tchaikovsky's beloved holiday classic and a treasured Champaign-Urbana tradition.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1155",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-06T14:00:00-06:00",
+   "end": "2026-12-06T16:59:00-06:00"
+  },
+  "103": {
+   "summary": "CU BALLET PRESENTS THE NUTCRACKER",
+   "description": "FRI, DEC 4\u00a0- SUN, DEC 6, 2026 Champaign Urbana Ballet presents\u00a0The Nutcracker,\u00a0Tchaikovsky's beloved holiday classic and a treasured Champaign-Urbana tradition.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1155",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-06T18:00:00-06:00",
+   "end": "2026-12-06T21:00:00-06:00"
+  },
+  "104": {
+   "summary": "MEET SANTA AT THE VIRGINIA THEATRE 2026",
+   "description": "NOV 17, DEC 8, DEC 10, and DEC 21, 2026 5-7PM FREE! Santa Claus is coming to town! The Champaign Center Partnership and the Champaign Park District are excited to again welcome jolly old St. Nick to the Virginia Theatre.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1157",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-08T17:00:00-06:00",
+   "end": "2026-12-08T19:00:00-06:00"
+  },
+  "105": {
+   "summary": "HOLIDAY CARD PHOTO OP",
+   "description": "NOV 16, NOV 23, DEC 9, and DEC 11, 2026 5PM-7PM We\u2019re opening up the Virginia\u2019s beautifully decorated Mezzanine Lobby for photographs this holiday season, free of charge!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1158",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-09T17:00:00-06:00",
+   "end": "2026-12-09T19:00:00-06:00"
+  },
+  "106": {
+   "summary": "MEET SANTA AT THE VIRGINIA THEATRE 2026",
+   "description": "NOV 17, DEC 8, DEC 10, and DEC 21, 2026 5-7PM FREE! Santa Claus is coming to town! The Champaign Center Partnership and the Champaign Park District are excited to again welcome jolly old St. Nick to the Virginia Theatre.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1157",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-10T17:00:00-06:00",
+   "end": "2026-12-10T19:00:00-06:00"
+  },
+  "107": {
+   "summary": "HOLIDAY CARD PHOTO OP",
+   "description": "NOV 16, NOV 23, DEC 9, and DEC 11, 2026 5PM-7PM We\u2019re opening up the Virginia\u2019s beautifully decorated Mezzanine Lobby for photographs this holiday season, free of charge!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1158",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-11T17:00:00-06:00",
+   "end": "2026-12-11T19:00:00-06:00"
+  },
+  "108": {
+   "summary": "IT'S A WONDERFUL LIFE (1946)",
+   "description": "SAT, DEC 12, 2026 THE NEWS-GAZETTE FILM SERIES Celebrate the\u00a080th ANNIVERSARY of the most beloved Christmas classic ever!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1156",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-12T13:00:00-06:00",
+   "end": "2026-12-12T17:00:00-06:00"
+  },
+  "109": {
+   "summary": "IT'S A WONDERFUL LIFE (1946)",
+   "description": "SAT, DEC 12, 2026 THE NEWS-GAZETTE FILM SERIES Celebrate the\u00a080th ANNIVERSARY of the most beloved Christmas classic ever!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1156",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-12T19:00:00-06:00",
+   "end": "2026-12-12T22:00:00-06:00"
+  },
+  "110": {
+   "summary": "HOLIDAY IN WHOVILLE 2026",
+   "description": "SUN, DEC 13, 2026 All Ages Join us for\u00a0this beloved\u00a0holiday treat!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1147",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-13T13:00:00-06:00",
+   "end": "2026-12-13T16:59:00-06:00"
+  },
+  "111": {
+   "summary": "HOLIDAY IN WHOVILLE 2026",
+   "description": "SUN, DEC 13, 2026 All Ages Join us for\u00a0this beloved\u00a0holiday treat!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1147",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-13T14:00:00-06:00",
+   "end": "2026-12-13T16:59:00-06:00"
+  },
+  "112": {
+   "summary": "HOLIDAY IN WHOVILLE 2026",
+   "description": "SUN, DEC 13, 2026 All Ages Join us for\u00a0this beloved\u00a0holiday treat!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1147",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-13T15:00:00-06:00",
+   "end": "2026-12-13T16:59:00-06:00"
+  },
+  "113": {
+   "summary": "HOLIDAY IN WHOVILLE 2026",
+   "description": "SUN, DEC 13, 2026 All Ages Join us for\u00a0this beloved\u00a0holiday treat!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1147",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-13T16:00:00-06:00",
+   "end": "2026-12-13T16:59:00-06:00"
+  },
+  "114": {
+   "summary": "MANNHEIM STEAMROLLER CHRISTMAS by Chip Davis",
+   "description": "TUE, DEC 15, 2026 The holiday tradition continues!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1141",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-15T19:00:00-06:00",
+   "end": "2026-12-15T22:00:00-06:00"
+  },
+  "115": {
+   "summary": "MEET SANTA AT THE VIRGINIA THEATRE 2026",
+   "description": "NOV 17, DEC 8, DEC 10, and DEC 21, 2026 5-7PM FREE! Santa Claus is coming to town! The Champaign Center Partnership and the Champaign Park District are excited to again welcome jolly old St. Nick to the Virginia Theatre.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1157",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2026-12-21T17:00:00-06:00",
+   "end": "2026-12-21T19:00:00-06:00"
+  },
+  "116": {
+   "summary": "TOMMY EMMANUEL, CGP w/ Special Guest Jack Schneider",
+   "description": "LIVING IN THE LIGHT TOUR TUE, JAN 26, 2027 More than sixty years into his storied career as one of the modern era\u2019s most accomplished and versatile guitarists.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1154",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2027-01-26T19:30:00-06:00",
+   "end": "2027-01-26T22:30:00-06:00"
+  },
+  "117": {
+   "summary": "THE PRICE IS RIGHT LIVE",
+   "description": "THE PRICE IS RIGHT LIVE THU, FEB 11, 2027 \"Come On Down!\" to THE PRICE IS RIGHT LIVE\u2122 It's not TV... It's LIVE. Feel the excitement as America's favorite game show unfolds right in front of you; fans get the chance to step into the action and experience the games they know and love in person.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1159",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2027-02-11T19:30:00-06:00",
+   "end": "2027-02-11T22:30:00-06:00"
+  },
+  "118": {
+   "summary": "BLIPPI: BE LIKE BLIPPI TOUR",
+   "description": "FRI, FEB 19, 2027 Blippi is coming to your hometown in the all-new Be Like Blippi Tour!\u00a0Get ready to see the world more curiously as you move like, play like, and explore just like Blippi!",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1152",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2027-02-19T18:00:00-06:00",
+   "end": "2027-02-19T21:00:00-06:00"
+  },
+  "119": {
+   "summary": "GARY OWEN: NO HARD FEELINGS TOUR",
+   "description": "SAT, APR 10, 2027 Gary Owen has been entertaining audiences for more than two decades with his sharp observational humor and fearless storytelling. Known for his unapologetic, rule-defying style, his material draws from his personal life, time in the military and the everyday absurdities that connect people across backgrounds.",
+   "htmlLink": "https://thevirginia.showare.com/eventperformances.asp?evt=1160",
+   "location": "Virginia Theatre 203 W Park Ave, Champaign, IL 61820",
+   "tag": "Entertainment",
+   "venue": "Virginia Theatre",
+   "start": "2027-04-10T20:00:00-05:00",
+   "end": "2027-04-10T23:00:00-05:00"
+  },
+  "120": {
+   "summary": "Fall 2026 Begins: First Day of Classes",
+   "description": "Instruction Begins - Fall 2026 academic calendar. First day for full-semester and first-half (8-week) courses.",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2026-08-24T00:00:00-05:00",
+   "end": "2026-08-24T23:59:00-05:00"
+  },
+  "121": {
+   "summary": "Labor Day (No Classes)",
+   "description": "Labor Day (no classes) - Fall 2026 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2026-09-07T00:00:00-05:00",
+   "end": "2026-09-07T23:59:00-05:00"
+  },
+  "122": {
+   "summary": "Fall Break Begins",
+   "description": "Fall Break Begins (1:00 pm) - Fall 2026 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2026-11-21T00:00:00-06:00",
+   "end": "2026-11-21T23:59:00-06:00"
+  },
+  "123": {
+   "summary": "Fall Break Ends: Classes Resume",
+   "description": "Instruction Resumes (7:00 am) - Fall 2026 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2026-11-30T00:00:00-06:00",
+   "end": "2026-11-30T23:59:00-06:00"
+  },
+  "124": {
+   "summary": "Fall 2026: Last Day of Classes",
+   "description": "Instruction Ends - Fall 2026 academic calendar. Last day for full-semester and second-half (8-week) courses.",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2026-12-09T00:00:00-06:00",
+   "end": "2026-12-09T23:59:00-06:00"
+  },
+  "125": {
+   "summary": "Fall 2026 Final Exams Begin",
+   "description": "Final Examinations Begin - Fall 2026 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2026-12-11T00:00:00-06:00",
+   "end": "2026-12-11T23:59:00-06:00"
+  },
+  "126": {
+   "summary": "Fall 2026 Ends: Last Day of Final Exams",
+   "description": "Final Examinations End - Fall 2026 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2026-12-17T00:00:00-06:00",
+   "end": "2026-12-17T23:59:00-06:00"
+  },
+  "127": {
+   "summary": "Christmas Day (No Classes)",
+   "description": "Christmas Day (no classes) - Winter 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2026-12-25T00:00:00-06:00",
+   "end": "2026-12-25T23:59:00-06:00"
+  },
+  "128": {
+   "summary": "New Year\u2019s Day (No Classes)",
+   "description": "New Year\u2019s Day (no classes) - Winter 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-01-01T00:00:00-06:00",
+   "end": "2027-01-01T23:59:00-06:00"
+  },
+  "129": {
+   "summary": "Martin Luther King Jr. Day (No Classes)",
+   "description": "Martin Luther King Jr. Day (no classes) - Spring 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-01-18T00:00:00-06:00",
+   "end": "2027-01-18T23:59:00-06:00"
+  },
+  "130": {
+   "summary": "Spring 2027 Begins: First Day of Classes",
+   "description": "Instruction Begins - Spring 2027 academic calendar. First day for full-semester and first-half (8-week) courses.",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-01-19T00:00:00-06:00",
+   "end": "2027-01-19T23:59:00-06:00"
+  },
+  "131": {
+   "summary": "Spring Break Begins",
+   "description": "Spring Break Begins (1:00 pm) - Spring 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-03-13T00:00:00-06:00",
+   "end": "2027-03-13T23:59:00-06:00"
+  },
+  "132": {
+   "summary": "Spring Break Ends: Classes Resume",
+   "description": "Instruction Resumes (7:00 am) - Spring 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-03-22T00:00:00-05:00",
+   "end": "2027-03-22T23:59:00-05:00"
+  },
+  "133": {
+   "summary": "Spring 2027: Last Day of Classes",
+   "description": "Instruction Ends - Spring 2027 academic calendar. Last day for full-semester and second-half (8-week) courses.",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-05-05T00:00:00-05:00",
+   "end": "2027-05-05T23:59:00-05:00"
+  },
+  "134": {
+   "summary": "Spring 2027 Final Exams Begin",
+   "description": "Final Examinations Begin - Spring 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-05-07T00:00:00-05:00",
+   "end": "2027-05-07T23:59:00-05:00"
+  },
+  "135": {
+   "summary": "Spring 2027 Ends: Last Day of Final Exams",
+   "description": "Final Examinations End - Spring 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-05-13T00:00:00-05:00",
+   "end": "2027-05-13T23:59:00-05:00"
+  },
+  "136": {
+   "summary": "Memorial Day (No Classes)",
+   "description": "Memorial Day (no classes) - Summer 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-05-31T00:00:00-05:00",
+   "end": "2027-05-31T23:59:00-05:00"
+  },
+  "137": {
+   "summary": "Juneteenth Observed (No Classes)",
+   "description": "Juneteenth Observed (no classes) - Summer 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-06-18T00:00:00-05:00",
+   "end": "2027-06-18T23:59:00-05:00"
+  },
+  "138": {
+   "summary": "Independence Day Observed (No Classes)",
+   "description": "Independence Day Observed (no classes) - Summer 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2026-2027ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-07-05T00:00:00-05:00",
+   "end": "2027-07-05T23:59:00-05:00"
+  },
+  "139": {
+   "summary": "Fall 2027 Begins: First Day of Classes",
+   "description": "Instruction Begins - Fall 2027 academic calendar. First day for full-semester and first-half (8-week) courses.",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-08-23T00:00:00-05:00",
+   "end": "2027-08-23T23:59:00-05:00"
+  },
+  "140": {
+   "summary": "Labor Day (No Classes)",
+   "description": "Labor Day (No classes) - Fall 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-09-06T00:00:00-05:00",
+   "end": "2027-09-06T23:59:00-05:00"
+  },
+  "141": {
+   "summary": "Fall Break Begins",
+   "description": "Fall Break Begins (1:00 pm) - Fall 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-11-20T00:00:00-06:00",
+   "end": "2027-11-20T23:59:00-06:00"
+  },
+  "142": {
+   "summary": "Fall Break Ends: Classes Resume",
+   "description": "Instruction Resumes (7:00 am) - Fall 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-11-29T00:00:00-06:00",
+   "end": "2027-11-29T23:59:00-06:00"
+  },
+  "143": {
+   "summary": "Fall 2027: Last Day of Classes",
+   "description": "Instruction Ends - Fall 2027 academic calendar. Last day for full-semester and second-half (8-week) courses.",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-12-08T00:00:00-06:00",
+   "end": "2027-12-08T23:59:00-06:00"
+  },
+  "144": {
+   "summary": "Fall 2027 Final Exams Begin",
+   "description": "Final Examinations Begin - Fall 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-12-10T00:00:00-06:00",
+   "end": "2027-12-10T23:59:00-06:00"
+  },
+  "145": {
+   "summary": "Fall 2027 Ends: Last Day of Final Exams",
+   "description": "Final Examinations End - Fall 2027 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-12-16T00:00:00-06:00",
+   "end": "2027-12-16T23:59:00-06:00"
+  },
+  "146": {
+   "summary": "Christmas Day (No Classes)",
+   "description": "Christmas Day (No classes) - Winter 2028 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-12-25T00:00:00-06:00",
+   "end": "2027-12-25T23:59:00-06:00"
+  },
+  "147": {
+   "summary": "New Year\u2019s Day (No Classes)",
+   "description": "New Year\u2019s Day (No classes) - Winter 2028 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2028-01-01T00:00:00-06:00",
+   "end": "2028-01-01T23:59:00-06:00"
+  },
+  "148": {
+   "summary": "Martin Luther King Jr. Day (No Classes)",
+   "description": "Martin Luther King Jr. Day (No classes) - Spring 2028 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2028-01-17T00:00:00-06:00",
+   "end": "2028-01-17T23:59:00-06:00"
+  },
+  "149": {
+   "summary": "Spring 2028 Begins: First Day of Classes",
+   "description": "Instruction Begins - Spring 2028 academic calendar. First day for full-semester and first-half (8-week) courses.",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2028-01-18T00:00:00-06:00",
+   "end": "2028-01-18T23:59:00-06:00"
+  },
+  "150": {
+   "summary": "Spring Break Begins",
+   "description": "Spring Break Begins (1:00 pm) - Spring 2028 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2028-03-11T00:00:00-06:00",
+   "end": "2028-03-11T23:59:00-06:00"
+  },
+  "151": {
+   "summary": "Spring Break Ends: Classes Resume",
+   "description": "Instruction Resumes (7:00 am) - Spring 2028 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2028-03-20T00:00:00-05:00",
+   "end": "2028-03-20T23:59:00-05:00"
+  },
+  "152": {
+   "summary": "Spring 2028: Last Day of Classes",
+   "description": "Instruction Ends - Spring 2028 academic calendar. Last day for full-semester and second-half (8-week) courses.",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2028-05-03T00:00:00-05:00",
+   "end": "2028-05-03T23:59:00-05:00"
+  },
+  "153": {
+   "summary": "Spring 2028 Final Exams Begin",
+   "description": "Final Examinations Begin - Spring 2028 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2028-05-05T00:00:00-05:00",
+   "end": "2028-05-05T23:59:00-05:00"
+  },
+  "154": {
+   "summary": "Spring 2028 Ends: Last Day of Final Exams",
+   "description": "Final Examinations End - Spring 2028 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2028-05-11T00:00:00-05:00",
+   "end": "2028-05-11T23:59:00-05:00"
+  },
+  "155": {
+   "summary": "Memorial Day (No Classes)",
+   "description": "Memorial Day (No classes) - Summer 2028 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2028-05-29T00:00:00-05:00",
+   "end": "2028-05-29T23:59:00-05:00"
+  },
+  "156": {
+   "summary": "Juneteenth (No Classes)",
+   "description": "Juneteenth (No classes) - Summer 2028 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2028-06-19T00:00:00-05:00",
+   "end": "2028-06-19T23:59:00-05:00"
+  },
+  "157": {
+   "summary": "Independence Day (No Classes)",
+   "description": "Independence Day (No classes) - Summer 2028 academic calendar",
+   "htmlLink": "https://senate.illinois.edu/academic_calendars/2027-2028ac.pdf",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2028-07-04T00:00:00-05:00",
+   "end": "2028-07-04T23:59:00-05:00"
+  },
+  "158": {
+   "summary": "Fall 2026: Second-Half (8-Week) Classes Begin",
+   "description": "POT B (2nd 8 week) courses begin (non-traditional courses may begin earlier or later)",
+   "htmlLink": "https://registrar.illinois.edu/fall-2026-academic-calendar/",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2026-10-19T00:00:00-05:00",
+   "end": "2026-10-19T23:59:00-05:00"
+  },
+  "159": {
+   "summary": "Fall 2026 Final Grades Released",
+   "description": "Faculty deadline for reporting grades. \u00a0Students can view final grades the following day via Student Self-Service or myIllini .",
+   "htmlLink": "https://registrar.illinois.edu/fall-2026-academic-calendar/",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2026-12-23T00:00:00-06:00",
+   "end": "2026-12-23T23:59:00-06:00"
+  },
+  "160": {
+   "summary": "Spring 2027: Second-Half (8-Week) Classes Begin",
+   "description": "POT B (2nd 8 week) courses begin (non-standard courses may begin earlier or later)",
+   "htmlLink": "https://registrar.illinois.edu/faculty-staff/calendars/academic-calendars/academic-calendars-archive/spring-academic-calendar-27/",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-03-22T00:00:00-05:00",
+   "end": "2027-03-22T23:59:00-05:00"
+  },
+  "161": {
+   "summary": "Spring 2027 Final Grades Released",
+   "description": "Faculty deadline for reporting grades. Students can view final grades the following day via Student Self-Service or myIllini",
+   "htmlLink": "https://registrar.illinois.edu/faculty-staff/calendars/academic-calendars/academic-calendars-archive/spring-academic-calendar-27/",
+   "location": "University of Illinois Urbana-Champaign",
+   "tag": "Academics",
+   "start": "2027-05-22T00:00:00-05:00",
+   "end": "2027-05-22T23:59:00-05:00"
   }
  }
 }

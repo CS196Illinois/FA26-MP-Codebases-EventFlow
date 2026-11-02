@@ -8,7 +8,8 @@ import {
   formatTime,
   parseEventData,
   createEventCard,
-  showEventDetails
+  showEventDetails,
+  getEventVenue
 } from './script.js';
 
 // Import calendar functions from calendar-connect.js
@@ -26,7 +27,9 @@ const firebaseConfig = window.FIREBASE_CONFIG;
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getDatabase(app);
+
+// ?sample=1 loads web_scraper/sample_events.json through Flask instead of Firebase (for local testing)
+const useSampleData = new URLSearchParams(window.location.search).has('sample');
 
 // Wait for the page to fully load before running our code
 document.addEventListener("DOMContentLoaded", function() {
@@ -35,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const browseContainer = document.getElementById("browse-events");
   const searchInput = document.getElementById("search-events");
   const categorySelect = document.getElementById("filter-category");
+  const venueSelect = document.getElementById("filter-venue");
   const detailModal = document.getElementById("detail-modal");
   const closeButton = document.getElementById("close-detail");
 
@@ -45,13 +49,21 @@ document.addEventListener("DOMContentLoaded", function() {
   // Convert the events object from the server into an array
   async function loadEvents() {
     try {
-        // Fetch events from the firesebase database
-        const eventsRef = ref(db, "scraped_events");
-        const snapshot = await get(eventsRef);
-        
         let eventsData = null;
-        if (snapshot.exists()) {
-            eventsData = snapshot.val();
+
+        if (useSampleData) {
+            // Fetch the sample events from Flask
+            const response = await fetch('/sample-events');
+            eventsData = await response.json();
+        } else {
+            // Fetch events from the firesebase database
+            // getDatabase is called here so sample mode works without Firebase config in .env
+            const eventsRef = ref(getDatabase(app), "scraped_events");
+            const snapshot = await get(eventsRef);
+
+            if (snapshot.exists()) {
+                eventsData = snapshot.val();
+            }
         }
 
         // Check if we got data back
@@ -82,6 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Now that we have all events, set up the page
         setupCategories();
+        setupVenues();
         displayEvents(allEvents);
     } catch (error) {
         console.error('Error loading events:', error);
@@ -172,6 +185,39 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
+  // ========== Setup Venue Filter ==========
+  // Entertainment events have a venue sub-category (State Farm Center, Krannert Center, Virginia Theatre)
+  function setupVenues() {
+    let venues = [];
+
+    for (let i = 0; i < allEvents.length; i++) {
+      let venue = getEventVenue(allEvents[i]);
+
+      if (venue && !venues.includes(venue)) {
+        venues.push(venue);
+      }
+    }
+
+    venues.sort();
+
+    for (let i = 0; i < venues.length; i++) {
+      let option = document.createElement('option');
+      option.value = venues[i];
+      option.textContent = venues[i];
+      venueSelect.appendChild(option);
+    }
+  }
+
+  // Only show the venue dropdown while the Entertainment category is selected
+  function updateVenueFilter() {
+    if (categorySelect.value === 'Entertainment') {
+      venueSelect.style.display = '';
+    } else {
+      venueSelect.style.display = 'none';
+      venueSelect.value = 'all';
+    }
+  }
+
   // ========== STEP 3: Display Events ==========
   // Show events as cards on the page
   function displayEvents(events) {
@@ -196,6 +242,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function searchEvents() {
     let searchText = searchInput.value.toLowerCase();
     let selectedCategory = categorySelect.value;
+    let selectedVenue = venueSelect.value;
     let filtered = [];
 
     // Go through all events
@@ -222,8 +269,16 @@ document.addEventListener("DOMContentLoaded", function() {
         matchesCategory = true;
       }
 
-      // If both match, add to filtered list
-      if (matchesSearch && matchesCategory) {
+      // Check if event matches selected venue (only set while Entertainment is selected)
+      let matchesVenue = false;
+      if (selectedVenue === 'all') {
+        matchesVenue = true;
+      } else if (getEventVenue(event) === selectedVenue) {
+        matchesVenue = true;
+      }
+
+      // If all match, add to filtered list
+      if (matchesSearch && matchesCategory && matchesVenue) {
         filtered.push(event);
       }
     }
@@ -237,7 +292,13 @@ document.addEventListener("DOMContentLoaded", function() {
   searchInput.addEventListener('input', searchEvents);
 
   // When user changes category dropdown
-  categorySelect.addEventListener('change', searchEvents);
+  categorySelect.addEventListener('change', function() {
+    updateVenueFilter();
+    searchEvents();
+  });
+
+  // When user changes venue dropdown
+  venueSelect.addEventListener('change', searchEvents);
 
   // When user clicks X to close modal
   closeButton.addEventListener('click', function() {
