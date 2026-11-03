@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 from pathlib import Path
 
@@ -60,6 +60,30 @@ def get_calendar_service():
     )
     return build("calendar", "v3", credentials=creds, cache_discovery=False)
 
+def normalize_title(title):
+    """Lowercase and collapse spaces so "Study  Session" matches "study session"."""
+    return " ".join((title or "").split()).casefold()
+
+def find_duplicate_event(service, calendar_id, summary, start):
+    """Return an event already on the calendar with the same title and start time, or None."""
+    start_dt = datetime.fromisoformat(start)
+    # Only ask Google for events starting within a minute of this one
+    existing = service.events().list(
+        calendarId=calendar_id,
+        timeMin=start_dt.isoformat(),
+        timeMax=(start_dt + timedelta(minutes=1)).isoformat(),
+        singleEvents=True,
+    ).execute().get("items", [])
+
+    for item in existing:
+        item_start = item.get("start", {}).get("dateTime")
+        if not item_start:
+            continue  # all-day events have no start time to compare
+        if (normalize_title(item.get("summary")) == normalize_title(summary)
+                and datetime.fromisoformat(item_start) == start_dt):
+            return item
+    return None
+
 @app.route("/api/calendar/events", methods=["POST"])
 def add_calendar_event():
     calendar_id = os.getenv("GOOGLE_CALENDAR_ID")
@@ -78,7 +102,13 @@ def add_calendar_event():
         "end": {"dateTime": event["end"], "timeZone": "America/Chicago"},
     }
     try:
-        created = get_calendar_service().events().insert(calendarId=calendar_id, body=event_data).execute()
+        service = get_calendar_service()
+
+        # The calendar is shared by everyone, so skip events that are already on it
+        if find_duplicate_event(service, calendar_id, event_data["summary"], event["start"]):
+            return jsonify({"error": f'"{event_data["summary"]}" is already on the calendar at that time'}), 409
+
+        created = service.events().insert(calendarId=calendar_id, body=event_data).execute()
         return jsonify({"id": created["id"], "htmlLink": created.get("htmlLink")}), 201
     except Exception as e:
         print(f"Error adding calendar event: {e}")
