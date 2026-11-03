@@ -113,6 +113,10 @@ export async function addEventToGoogleCalendar(event) {
             refreshCalendars();
 
             return result;
+        } else if (response.status === 409) {
+            // Already on the shared calendar: warn instead of reporting a failure
+            showToast('Already Added', result.error, 'warning');
+            return result;
         } else {
             console.error('Error adding event to calendar:', result.error);
             showToast('Failed', result.error || 'Could not add event to calendar', 'error');
